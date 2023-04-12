@@ -31,28 +31,20 @@ I have a few thoughts about what I may find before I explore the data in earnest
 
 ## Project Plan:
 
-* **Acquire the data:
-  * Web scraping was used to acquire the data
-  * The data is from Texas Education Agency (TEA).
+* Acquire the data:
+  * An API for Board Game Atlas was used to acquire the data
+      * https://www.boardgameatlas.com/api/docs
 
-* **Data prep for exploration:**
-    * Schools that had special characters were removed from analysis
-        * special characters (`*`, `-`, `?`, n/a)
-    * Nulls were removed:
-        * Nulls or reserved information was incoded into the special characters above and removed
-    * All the percent signs, dollar signs, and commas were removed from values
-    * Columns were combined into desired features
-        * `high_edu` was generated from combining percent of teachers that have a masters or doctorate
-        * Features for `teacher_exp_0to5`, `teacher_exp_6to10`, and `teacher_exp_11_plus` were generated from combining:
-            * Beginning teachers and teachers with 1-5 years of experience into `teacher_exp_0to5`
-            * Teachers with 11+ years of experience were combined into `teacher_exp_11_plus`
-            * `teacher_exp_6to10` stayed the same. Teachers of 6-10 years of experience
-    * There were an initial 1571 rows
-        * The total number of rows after preperation and cleaning is 1391
-
-* **Separate into train, validate, and test datasets**
+* Data prep for exploration:
+    * The inital data had 84 columns and 1000 rows
+        * The shape of the data has been reduced to 18 columns and 995 rows
+    * Nulls were removed/encoded:
+        * There were not a lot of nulls so the information was encoded after looking up the information online
+        * There were a few entries that had nulls that spanned across multiple features and those specific entries were dropped
+        
+* Separate into train, validate, and test datasets
  
-* **Explore data to develop an understanding of what features affect a school's STAAR passing rate.**
+* Explore data to develop an understanding of what features affect a board games rating.
    * Initial questions:
        * Do schools with more economically disadvantaged students have a lower average percent passing rate for STAAR exams?
        * Do schools with teachers that have more years of experience have a better average STAAR score passing rates?
@@ -61,65 +53,52 @@ I have a few thoughts about what I may find before I explore the data in earnest
        * Is there a statisticaly significant correlation between the amount of extracurricular expendatures and algebra passing rates?
        * Is there a statisticaly significant correlation between student teacher ratio and all subjects passing rates?
        
-* **Prep the data for modeling:**
+* Prep the data for modeling:
     * Split data into X and y train
     * Scale all numeric data excluding target variables:
         * MinMaxScalar() was used to scale data
       
-* **Develop a model to predict STAAR scores for `english_1`, `english_2`, `algebra`, `biology`, and `history`**
+* Develop a model to predict STAAR scores for `english_1`, `english_2`, `algebra`, `biology`, and `history`
    * Regression models were used to predict STAAR scores
        * Linear Regression
        * Lasso Lars
        * Tweedie Regressor
        * Polynomial Regression
-   * Evaluate models on train and validate data**
+   * Evaluate models on train and validate data
    * Select the best model based on the lowest RMSE and difference between in sample and out of sample data RMSE
    * Test the best model on test data
  
-* **Draw conclusions**
+* Draw conclusions
 
 ## Data Dictionary:
 
-* For a full glossary of all information provided by the TEA check this website:
-    * https://tea.texas.gov/sites/default/files/comprehensive-tprs-glossary-2021.pdf
 
-
-| **Feature** | **Definition** |
+| Feature | Definition |
 |:--------|:-----------|
-|school_id| The id number of the school from TEA|
-|english_1| English I, percent of students at approaches grade level or above for English I|
-|english_2| English II, percent of students at approaches grade level or above for English II|
-|algebra| Algebra, percent of students at approaches grade level or above for Algebra|
-|biology| Biology, percent of students at approaches grade level or above for Biology|
-|history| U.S. History, percent of students at approaches grade level or above for U.S. History|
-|bilingual_or_english_learner| EB/EL Current and Monitored, percent of students in the dual-language program that enables emergent bilingual (EB) students/English learners (ELs) to become proficient in listening, speaking, reading, and writing in the English language through the development of literacy and academic skills in the primary language and English.|
-|teacher_exp_0to5| Integer, number of teachers with 0-5 years of experience|
-|teacher_exp_6to10| Integer, number of teachers with 6-10 numbers of experience|
-|teacher_exp_11_plus| Integer, number of teachers with 11 or more years of experience|
-|extracurricular_expend| The amount of funds (in dollars) spent on extracurriculuars per student|
-|total_expend| The average total amount of funds (in dollars) spent per student|
-|econdis| students that are from homes that are below the poverty line
-|salary| Average Actual Salary, Average amount teachers are being paid in dollars|
-|high_edu| Percent of teachers with a masters or doctorate degree|
-|ratio| Count of the number of students per one teacher|
+|id| The id number of the school from TEA|
+|name| English I, percent of students at approaches grade level or above for English I|
+|price| English II, percent of students at approaches grade level or above for English II|
+|msrp| Algebra, percent of students at approaches grade level or above for Algebra|
+|year_published| Biology, percent of students at approaches grade level or above for Biology|
+|min_players| U.S. History, percent of students at approaches grade level or above for U.S. History|
+|max_players| EB/EL Current and Monitored, percent of students in the dual-language program that enables emergent bilingual (EB) students/English learners (ELs) to become proficient in listening, speaking, reading, and writing in the English language through the development of literacy and academic skills in the primary language and English.|
+|min_playtime| Integer, number of teachers with 0-5 years of experience|
+|max_playtime| Integer, number of teachers with 6-10 numbers of experience|
+|min_age| Integer, number of teachers with 11 or more years of experience|
+|num_user_ratings| The amount of funds (in dollars) spent on extracurriculuars per student|
+|average_user_rating| The average total amount of funds (in dollars) spent per student|
+|num_user_complexity_votes| students that are from homes that are below the poverty line
+|average_learning_complexity| Average Actual Salary, Average amount teachers are being paid in dollars|
+|average_strategy_complexity| Percent of teachers with a masters or doctorate degree|
+|rank| Count of the number of students per one teacher|
+|type| Count of the number of students per one teacher|
+|num_distributors| Count of the number of students per one teacher|
 
 
 
 ## Steps to Reproduce
 1. Clone this repo
-2. Use the function from acquire.py to scrape the data from the TEA website 
-    * May take a few hours to web scrape.
+2. Use the function from acquire.py to acquire the data from the Board Game Atlas API 
 3. Use the functions from prepare.py to prepare the data for exploration
 4. Run the explore and modeling notebook
 5. Run final report notebook
-
-
-## Citation:
-All data acquired from:
-* https://rptsvr1.tea.texas.gov/perfreport/tprs/tprs_srch.html
-
-Link to the final presentation slide deck:
-* https://www.canva.com/design/DAFdeHe75pM/qSUa86WQ0Gtg3R7mET4Lyg/view?utm_content=DAFdeHe75pM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
-
-Link to the Tableau dashboard:
-* https://public.tableau.com/app/profile/andy.jensen8392/viz/CapstoneDashboard_16795800870340/Dashboard1?publish=yes
