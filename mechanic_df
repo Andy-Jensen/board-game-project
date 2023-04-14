@@ -1,0 +1,4238 @@
+,mechanics
+0,Action / Movement Programming
+1,Action Queue
+2,Area Control
+3,Dice Rolling
+4,Engine Building
+5,Hand Management
+6,Point to Point Movement
+7,Race
+8,Variable Player Powers
+9,Action Selection
+10,Area Control
+11,Engine Building
+12,Grid Movement
+13,Hexagon Grid
+14,Hidden Objective
+15,Variable Player Powers
+16,Dice Rolling
+17,Engine Building
+18,Set Collection
+19,Tableau Building
+20,Campaign
+21,Cooperative Play
+22,Grid Movement
+23,Hand Management
+24,Legacy
+25,Modular Board
+26,Role Playing
+27,Simultaneous action selection
+28,Storytelling
+29,Variable Player Powers
+30,Area Control
+31,Card Drafting
+32,Cooperative Play
+33,End Game Bonuses
+34,Hand Management
+35,Hexagon Grid
+36,Income
+37,Set Collection
+38,Tableau Building
+39,Take That
+40,Tile Placement
+41,Turn Order: Progressive
+42,Variable Player Powers
+43,Drafting
+44,End Game Bonuses
+45,Pattern Building
+46,Tile Placement
+47,Engine Building
+48,Hand Management
+49,Worker Placement
+50,Action Point Allowance System
+51,Cooperative Play
+52,Hand Management
+53,Point to Point Movement
+54,Set Collection
+55,Trading
+56,Variable Player Powers
+57,Action / Movement Programming
+58,Area Control
+59,Cooperative Play
+60,Events
+61,Hand Management
+62,Modular Board
+63,Set Collection
+64,Simultaneous Play
+65,Solo / Solitaire Game
+66,Variable Player Powers
+67,Drafting
+68,Engine Building
+69,Set Collection
+70,Tableau Building
+71,Drafting
+72,Hand Management
+73,Set Collection
+74,Tableau Building
+75,Communication Limits
+76,Deduction
+77,Memory
+78,Press Your Luck
+79,Teams
+80,Dice Rolling
+81,
+82,Set Collection
+83,Tile Placement
+84,Worker Placement with Dice Workers
+85,Area Majority/ Influence
+86,Tile Placement
+87,Drafting
+88,Engine Building
+89,Set Collection
+90,Cooperative Play
+91,Hand Management
+92,Legacy
+93,Set Collection
+94,Trading
+95,Area Control
+96,Card Drafting
+97,Deck Building
+98,Hand Management
+99,Point to Point Movement
+100,Pool Building
+101,Card Drafting
+102,End Game Bonuses
+103,Engine Building
+104,Hand Management
+105,Set Collection
+106,Solo / Solitaire Game
+107,Tableau Building
+108,Variable Setup
+109,Worker Placement
+110,Drafting
+111,Hand Management
+112,Network and Route Building
+113,Set Collection
+114,Connections
+115,Hand Management
+116,Income
+117,Loans
+118,Market
+119,Network and Route Building
+120,Tech Trees / Tech Tracks
+121,Turn Order: Stat-Based
+122,Variable Setup
+123,Bag Building
+124,Catch the Leader
+125,Pool Building
+126,Press Your Luck
+127,Dice Rolling
+128,Network and Route Building
+129,Trading
+130,Drafting
+131,Tile Placement
+132,Time Track
+133,Engine Building
+134,Hand Management
+135,Set Collection
+136,Simultaneous Play
+137,Tableau Building
+138,Turn Order: Roll Order
+139,Variable Phase Order
+140,Variable Player Powers
+141,Grid Movement
+142,Tile Placement
+143,Drafting
+144,Hand Management
+145,Set Collection
+146,Deck Building
+147,Hand Management
+148,Point to Point Movement
+149,Rondel
+150,Set Collection
+151,Variable Setup
+152,Drafting
+153,Pattern Building
+154,Tile Placement
+155,Card Drafting
+156,Contracts
+157,Hidden Roles
+158,Ownership
+159,Set Collection
+160,Take That
+161,Turn Order: Claim Action
+162,Worker Placement
+163,Area Control
+164,Dice Rolling
+165,Drafting
+166,Player Elimination
+167,Hand Management
+168,Player Elimination
+169,Drafting
+170,Set Collection
+171,Solo / Solitaire Game
+172,Worker Placement
+173,Bag Building
+174,Card Drafting
+175,Deck Building
+176,Drafting
+177,Pick-up and Deliver
+178,Player Elimination
+179,Point to Point Movement
+180,Press Your Luck
+181,Area Control
+182,Area Movement
+183,Card Drafting
+184,Drafting
+185,Hand Management
+186,Simultaneous Play
+187,End Game Bonuses
+188,Variable Phase Order
+189,Hidden Victory Points
+190,Area Control
+191,Auction
+192,Drafting
+193,End Game Bonuses
+194,Hidden Victory Points
+195,Modular Board
+196,Set Collection
+197,Variable Player Powers
+198,Variable Setup
+199,Bag Building
+200,Point to Point Movement
+201,Pool Building
+202,Turn Order: Progressive
+203,Worker Placement
+204,Commodity Speculation
+205,Contracts
+206,Dice Rolling
+207,Market
+208,Modular Board
+209,Network and Route Building
+210,Solo / Solitaire Game
+211,Turn Order: Pass Order
+212,Variable Player Powers
+213,Area Control
+214,Dice Rolling
+215,Variable Player Powers
+216,Victory Points as a Resource
+217,Bingo
+218,Paper and Pencil
+219,Pattern Building
+220,Roll and Write
+221,Solo / Solitaire Game
+222,Bias
+223,End Game Bonuses
+224,Set Collection
+225,Turn Order: Claim Action
+226,Worker Placement
+227,Cooperative Play
+228,Grid Movement
+229,Hand Management
+230,Modular Board
+231,Pick-up and Deliver
+232,Set Collection
+233,Solo / Solitaire Game
+234,Variable Player Powers
+235,Contracts
+236,Dice Rolling
+237,Drafting
+238,Hidden Objective
+239,Pattern Building
+240,Set Collection
+241,Solo mode (multiplayer game)
+242,Auction
+243,Catch the Leader
+244,Income
+245,Market
+246,Network and Route Building
+247,Turn Order: Stat-Based
+248,Area Control
+249,Area Movement
+250,Dice Rolling
+251,Hand Management
+252,Teams
+253,Variable Player Powers
+254,Cooperative Play
+255,Deck Constructing
+256,Hand Management
+257,Role Playing
+258,Solo / Solitaire Game
+259,Variable Player Powers
+260,Card Drafting
+261,Hand Management
+262,Network and Route Building
+263,Set Collection
+264,Card Drafting
+265,Drafting
+266,End Game Bonuses
+267,Hand Management
+268,Set Collection
+269,Area Movement
+270,Cooperative Play
+271,Dice Rolling
+272,Hand Management
+273,Hidden Traitor
+274,Press Your Luck
+275,Storytelling
+276,Trading
+277,Traitor
+278,Variable Player Powers
+279,Voting
+280,Cooperative Play
+281,Dice Rolling
+282,Hexagon Grid
+283,Press Your Luck
+284,Solo / Solitaire Game
+285,Storytelling
+286,Tile Placement
+287,Variable Player Powers
+288,Worker Placement
+289,Hand Management
+290,Score and Reset Game
+291,Set Collection
+292,Dice Rolling
+293,Grid Coverage
+294,Income
+295,Press Your Luck
+296,Tile Placement
+297,Turn Order: Pass Order
+298,Worker Placement
+299,Action Drafting
+300,Area Control
+301,Area Movement
+302,Drafting
+303,Hand Management
+304,Memory
+305,Modular Board
+306,Tile Placement
+307,Variable Phase Order
+308,Bag Building
+309,Pick-up and Deliver
+310,Point to Point Movement
+311,Worker Placement
+312,Card Drafting
+313,Drafting
+314,Hand Management
+315,Set Collection
+316,Simultaneous Play
+317,Deck Building
+318,Press Your Luck
+319,Dice Rolling
+320,Hand Management
+321,Set Collection
+322,Worker Placement
+323,Contracts
+324,Dice Rolling
+325,Engine Building
+326,Simultaneous Play
+327,Tableau Building
+328,Variable Player Powers
+329,Area Control
+330,End Game Bonuses
+331,Hexagon Grid
+332,Income
+333,Network and Route Building
+334,Variable Player Powers
+335,Variable Setup
+336,Victory Points as a Resource
+337,Communication Limits
+338,Simultaneous Play
+339,Storytelling
+340,Submit and Judge
+341,Voting
+342,Area Control
+343,Campaign
+344,Dice Rolling
+345,Hand Management
+346,Simulation
+347,Simultaneous Play
+348,Simultaneous action selection
+349,Tug of War
+350,Hidden Roles
+351,Memory
+352,Player Elimination
+353,Take That
+354,Variable Player Powers
+355,Contracts
+356,Dice Rolling
+357,End Game Bonuses
+358,Set Collection
+359,Turn Order: Progressive
+360,Worker Placement
+361,Campaign
+362,Communication Limits
+363,Cooperative Play
+364,Scenario / Mission / Campaign Game
+365,Trick-taking
+366,Alliances
+367,Auction
+368,Hand Management
+369,Negotiation
+370,Race
+371,Simultaneous Play
+372,Take That
+373,Trading
+374,Variable Player Powers
+375,Communication Limits
+376,Cooperative Play
+377,Hand Management
+378,Memory
+379,Set Collection
+380,Area Control
+381,End Game Bonuses
+382,Hexagon Grid
+383,Income
+384,Modular Board
+385,Network and Route Building
+386,Tech Trees / Tech Tracks
+387,Turn Order: Pass Order
+388,Variable Player Powers
+389,Variable Setup
+390,Dice Rolling
+391,Grid Movement
+392,Modular Board
+393,Network and Route Building
+394,Set Collection
+395,Tile Placement
+396,Area Control
+397,Area Movement
+398,Hand Management
+399,Simulation
+400,Solo / Solitaire Game
+401,Storytelling
+402,Tableau Building
+403,Card Drafting
+404,Deck Building
+405,Engine Building
+406,Hand Management
+407,Area Control
+408,Set Collection
+409,Solo / Solitaire Game
+410,Tile Placement
+411,Variable Setup
+412,Worker Placement
+413,Worker Placement with Dice Workers
+414,Hidden Roles
+415,Memory
+416,Simultaneous Play
+417,Teams
+418,Traitor
+419,Voting
+420,Communication Limits
+421,Cooperative Play
+422,Deduction
+423,Hand Management
+424,Pattern Recognition
+425,Engine Building
+426,Solo / Solitaire Game
+427,Tile Placement
+428,Turn Order: Claim Action
+429,Worker Placement
+430,Bias
+431,Cooperative Play
+432,Grid Movement
+433,Hand Management
+434,Pick-up and Deliver
+435,Press Your Luck
+436,Solo / Solitaire Game
+437,Square Grid
+438,Variable Player Powers
+439,Betting
+440,Bluffing
+441,Bribery
+442,Drafting
+443,Hand Management
+444,Negotiation
+445,Set Collection
+446,Deck Building
+447,Contracts
+448,Dice Rolling
+449,Grid Movement
+450,Modular Board
+451,Network and Route Building
+452,Acting
+453,Action / Movement Programming
+454,Campaign
+455,Cooperative Play
+456,Grid Movement
+457,Hand Management
+458,Hexagon Grid
+459,Legacy
+460,Scenario / Mission / Campaign Game
+461,Simultaneous action selection
+462,Solo / Solitaire Game
+463,Card Drafting
+464,Hand Management
+465,Market
+466,Solo / Solitaire Game
+467,Worker Placement
+468,Card Drafting
+469,Hand Management
+470,Solo / Solitaire Game
+471,Turn Order: Claim Action
+472,Variable Player Powers
+473,Worker Placement
+474,Cooperative Play
+475,Dice Rolling
+476,Modular Board
+477,Player Elimination
+478,Role Playing
+479,Traitor
+480,Card Drafting
+481,Dice Rolling
+482,Random Production
+483,Card Drafting
+484,Drafting
+485,Income
+486,Market
+487,Modular Board
+488,Network and Route Building
+489,Simultaneous Play
+490,Simultaneous action selection
+491,Dice Rolling
+492,Drafting
+493,Set Collection
+494,Variable Player Powers
+495,Worker Placement
+496,Card Drafting
+497,Drafting
+498,Hand Management
+499,Solo / Solitaire Game
+500,Teams
+501,Turn Order: Claim Action
+502,Variable Player Powers
+503,Worker Placement
+504,Card Drafting
+505,Deck Building
+506,Grid Movement
+507,Hand Management
+508,Modular Board
+509,Race
+510,Action Selection
+511,Campaign
+512,Dice Building
+513,Grid Movement
+514,Line of Sight
+515,Modular Board
+516,Teams
+517,Card Drafting
+518,Cooperative Play
+519,Deck Building
+520,Dice Rolling
+521,Drafting
+522,Grid Movement
+523,Hand Management
+524,Modular Board
+525,Tile Placement
+526,Auction
+527,Hand Management
+528,Card Drafting
+529,Catch the Leader
+530,Drafting
+531,Hexagon Grid
+532,Set Collection
+533,Tile Placement
+534,Area Movement
+535,Cooperative Play
+536,Dice Rolling
+537,Hand Management
+538,Modular Board
+539,Role Playing
+540,Scenario / Mission / Campaign Game
+541,Solo / Solitaire Game
+542,Storytelling
+543,Traitor
+544,Variable Player Powers
+545,Card Drafting
+546,Contracts
+547,Drafting
+548,Hand Management
+549,Set Collection
+550,Auction
+551,End Game Bonuses
+552,Hexagon Grid
+553,Memory
+554,Network and Route Building
+555,Set Collection
+556,Tile Placement
+557,Turn Order: Auction
+558,Worker Placement
+559,Card Drafting
+560,Contracts
+561,Modular Board
+562,Point to Point Movement
+563,Score and Reset Game
+564,Set Collection
+565,Solo mode (multiplayer game)
+566,Worker Placement
+567,End Game Bonuses
+568,Loans
+569,Ownership
+570,Worker Placement
+571,Communication Limits
+572,Cooperative Play
+573,Hand Management
+574,Hand Management
+575,Pattern Building
+576,Set Collection
+577,Tile Placement
+578,Deduction
+579,Hidden Roles
+580,Partnerships
+581,Storytelling
+582,Card Placement
+583,End Game Bonuses
+584,Modular Board
+585,Set Collection
+586,Turn Order: Progressive
+587,Worker Placement
+588,Hand Management
+589,Take That
+590,Grid Movement
+591,Hand Management
+592,Pattern Movement
+593,Auction
+594,Betting
+595,Catch the Leader
+596,Set Collection
+597,Tile Placement
+598,Turn Order: Progressive
+599,Dice Rolling
+600,Events
+601,Pick-up and Deliver
+602,Real Time
+603,Simultaneous Play
+604,Teams
+605,Tile Placement
+606,Contracts
+607,Dice Rolling
+608,Drafting
+609,Income
+610,Set Collection
+611,Variable Player Powers
+612,Worker Placement
+613,Worker Placement with Dice Workers
+614,Hand Management
+615,Negotiation
+616,Set Collection
+617,Trading
+618,Communication Limits
+619,Cooperative Play
+620,Auction
+621,Bidding
+622,Network and Route Building
+623,Bingo
+624,Grid Coverage
+625,Pattern Building
+626,Solo / Solitaire Game
+627,Area Control
+628,Dice Rolling
+629,End Game Bonuses
+630,Hidden Victory Points
+631,Worker Placement
+632,Worker Placement with Dice Workers
+633,Auction
+634,Card Drafting
+635,Drafting
+636,End Game Bonuses
+637,Pattern Building
+638,Set Collection
+639,Tile Placement
+640,Grid Movement
+641,Hexagon Grid
+642,Tile Placement
+643,Bingo
+644,Grid Coverage
+645,Line Drawing
+646,Roll and Write
+647,Solo / Solitaire Game
+648,Area Control
+649,Card Drafting
+650,Dice Rolling
+651,End Game Bonuses
+652,Variable Player Powers
+653,Hidden Roles
+654,Memory
+655,Simultaneous Play
+656,Social Deduction
+657,Teams
+658,Traitor
+659,Variable Player Powers
+660,Voting
+661,Card Drafting
+662,Dice Rolling
+663,Drafting
+664,Set Collection
+665,Variable Player Powers
+666,Card Drafting
+667,Chaining
+668,Dice Rolling
+669,Hand Management
+670,Hexagon Grid
+671,Income
+672,Solo / Solitaire Game
+673,Tech Trees / Tech Tracks
+674,Tile Placement
+675,Variable Player Powers
+676,Action Point Allowance System
+677,Auction
+678,Card Drafting
+679,Income
+680,Tableau Building
+681,Auction: Dutch
+682,Cooperative Play
+683,Dice Rolling
+684,Point to Point Movement
+685,Role Playing
+686,Solo / Solitaire Game
+687,Variable Player Powers
+688,Hidden Roles
+689,Hidden Traitor
+690,Role Playing
+691,Variable Player Powers
+692,Voting
+693,Engine Building
+694,Loans
+695,Resource Gathering
+696,Set Collection
+697,Solo / Solitaire Game
+698,Tableau Building
+699,"Worker Placement, Different Worker Types"
+700,Cooperative Play
+701,Grid Movement
+702,Hand Management
+703,Modular Board
+704,Solo / Solitaire Game
+705,Storytelling
+706,Variable Player Powers
+707,Auction
+708,Bluffing
+709,Hand Management
+710,Player Elimination
+711,Grid Movement
+712,Hidden Movement
+713,Line Drawing
+714,Real Time
+715,Role Playing
+716,Teams
+717,Action Drafting
+718,Area Control
+719,Dice Rolling
+720,Set Collection
+721,Trading
+722,Variable Player Powers
+723,Variable Setup
+724,Voting
+725,Action Point Allowance System
+726,Dice Rolling
+727,Income
+728,Set Collection
+729,Tile Placement
+730,Worker Placement
+731,Hand Management
+732,Trick-taking
+733,Area Movement
+734,Cooperative Play
+735,Dice Rolling
+736,Hand Management
+737,Hidden Roles
+738,Hidden Traitor
+739,Once per game ability
+740,Action Point Allowance System
+741,Deck Constructing
+742,Hand Management
+743,Secret Unit Deployment
+744,Take That
+745,Variable Player Powers
+746,Hand Management
+747,Network and Route Building
+748,Open Drafting
+749,Set Collection
+750,Communication Limits
+751,Cooperative Play
+752,Partnerships
+753,Press Your Luck
+754,Bluffing
+755,
+756,Hidden Roles
+757,Hidden Traitor
+758,Player Elimination
+759,Teams
+760,Voting
+761,Card Drafting
+762,Dice Rolling
+763,Random Production
+764,Action Drafting
+765,Area Control
+766,Area Majority/ Influence
+767,Area Movement
+768,Campaign
+769,Dice Rolling
+770,Hand Management
+771,Hidden Movement
+772,Movement Points
+773,Scenario / Mission / Campaign Game
+774,Simulation
+775,Auction
+776,Card Drafting
+777,Commodity Speculation
+778,Hand Management
+779,Press Your Luck
+780,Set Collection
+781,Auction
+782,Press Your Luck
+783,Set Collection
+784,Increased Value of Unchosen Resources
+785,Action Selection
+786,Card Placement
+787,Tableau Building
+788,Area Control
+789,Area Movement
+790,Card Drafting
+791,Drafting
+792,Hand Management
+793,Area Control
+794,Area Majority/ Influence
+795,Hand Management
+796,Highest-Lowest Scoring
+797,Set Collection
+798,Square Grid
+799,Tile Placement
+800,Deck Building
+801,Hand Management
+802,Ladder Climbing
+803,Worker Placement
+804,Deck Building
+805,Hand Management
+806,Press Your Luck
+807,Solo / Solitaire Game
+808,Hand Management
+809,Income
+810,Loans
+811,Network and Route Building
+812,Action Point Allowance System
+813,Area Majority/ Influence
+814,Action Point Allowance System
+815,Card Drafting
+816,Dice Rolling
+817,Set Collection
+818,Storytelling
+819,Trading
+820,Campaign
+821,Cooperative Play
+822,Dice Building
+823,Dice Rolling
+824,Pool Building
+825,Role Playing
+826,Solo / Solitaire Game
+827,Turn Order: Roll Order
+828,Variable Player Powers
+829,Commodity Speculation
+830,Investment
+831,Set Collection
+832,Solo / Solitaire Game
+833,Worker Placement
+834,Cooperative Play
+835,Deck Building
+836,Events
+837,Solo / Solitaire Game
+838,Variable Setup
+839,Card Drafting
+840,Contracts
+841,Hand Management
+842,Tableau Building
+843,Take That
+844,Variable Player Powers
+845,Dice Rolling
+846,Hidden Roles
+847,Player Elimination
+848,Press Your Luck
+849,Dice Rolling
+850,Paper and Pencil
+851,Press Your Luck
+852,Roll and Write
+853,Solo / Solitaire Game
+854,Variable Player Powers
+855,Worker Placement
+856,Advantage Token
+857,Action Point Allowance System
+858,Cooperative Play
+859,Dice Building
+860,Grid Movement
+861,Pick-up and Deliver
+862,Simulation
+863,Solo / Solitaire Game
+864,Variable Player Powers
+865,Cooperative Play
+866,Hand Management
+867,Scenario / Mission / Campaign Game
+868,Solo / Solitaire Game
+869,Variable Player Powers
+870,Card Drafting
+871,Hand Management
+872,Increased Value of Unchosen Resources
+873,Set Collection
+874,Area Control
+875,Area Majority/ Influence
+876,Dice Rolling
+877,Grid Movement
+878,Hand Management
+879,Modular Board
+880,Scenario / Mission / Campaign Game
+881,End Game Bonuses
+882,Point to Point Movement
+883,Set Collection
+884,Time Track
+885,Variable Player Powers
+886,Alliances
+887,Area Control
+888,Area Majority/ Influence
+889,Bluffing
+890,Drafting
+891,End Game Bonuses
+892,Negotiation
+893,Set Collection
+894,Simultaneous Play
+895,Take That
+896,Variable Phase Order
+897,Variable Player Powers
+898,Variable Setup
+899,Action / Movement Programming
+900,Bias
+901,Card Drafting
+902,Cooperative Play
+903,Dice Rolling
+904,Modular Board
+905,Role Playing
+906,Variable Player Powers
+907,Action Point Allowance System
+908,Cooperative Play
+909,Dice Rolling
+910,Pick-up and Deliver
+911,Cooperative Play
+912,Dice Rolling
+913,Time Track
+914,Variable Player Powers
+915,Campaign
+916,Cooperative Play
+917,Dice Rolling
+918,Modular Board
+919,Partnerships
+920,Player Elimination
+921,Solo / Solitaire Game
+922,Teams
+923,Variable Player Powers
+924,Card Drafting
+925,Grid Coverage
+926,Set Collection
+927,Tile Placement
+928,Cooperative Play
+929,Deduction
+930,Narrative Choice
+931,Real Time
+932,Simultaneous Play
+933,Solo / Solitaire Game
+934,Storytelling
+935,Card Drafting
+936,Drafting
+937,Hand Management
+938,Tableau Building
+939,Take That
+940,Variable Player Powers
+941,Action Drafting
+942,Contracts
+943,Dice Rolling
+944,End Game Bonuses
+945,Hand Management
+946,Set Collection
+947,Hand Management
+948,Layering
+949,Variable Phase Order
+950,Card Drafting
+951,Dice Building
+952,Dice Rolling
+953,Random Production
+954,Action / Movement Programming
+955,Hand Management
+956,Memory
+957,Modular Board
+958,Take That
+959,Variable Player Powers
+960,Area Control
+961,Area Majority/ Influence
+962,Dice Rolling
+963,Grid Movement
+964,Tile Placement
+965,Variable Phase Order
+966,Variable Player Powers
+967,Competitive Play
+968,Cooperative Play
+969,Partnerships
+970,Press Your Luck
+971,Teams
+972,Word Association
+973,Card Drafting
+974,Drafting
+975,Hand Management
+976,Legacy
+977,Solo / Solitaire Game
+978,Worker Placement
+979,Communication Limits
+980,Deduction
+981,Teams
+982,Area Control
+983,Area Majority/ Influence
+984,Drafting
+985,Hand Management
+986,Set Collection
+987,Action Point Allowance System
+988,Dice Rolling
+989,Grid Movement
+990,Memory
+991,Modular Board
+992,Secret Unit Deployment
+993,Take That
+994,Cooperative Play
+995,Deck Building
+996,Delayed Purchase
+997,Drafting
+998,Hand Management
+999,Solo / Solitaire Game
+1000,Variable Phase Order
+1001,Variable Player Powers
+1002,Variable Setup
+1003,Card Drafting
+1004,Cooperative Play
+1005,Delayed Purchase
+1006,Card Drafting
+1007,Hand Management
+1008,Set Collection
+1009,Tile Placement
+1010,Hand Management
+1011,Network and Route Building
+1012,Player Elimination
+1013,Tile Placement
+1014,Cooperative Play
+1015,Scenario / Mission / Campaign Game
+1016,Storytelling
+1017,Time Track
+1018,Variable Player Powers
+1019,Card Drafting
+1020,Card Play Conflict Resolution
+1021,Deck Building
+1022,Force Commitment
+1023,Race
+1024,Turn Order: Progressive
+1025,Variable Player Powers
+1026,Worker Placement
+1027,Card Drafting
+1028,Deck Building
+1029,Modular Board
+1030,Player Elimination
+1031,Point to Point Movement
+1032,Pool Building
+1033,Press Your Luck
+1034,Auction
+1035,Press Your Luck
+1036,Set Collection
+1037,Area Control
+1038,Area Majority/ Influence
+1039,Hand Management
+1040,Take That
+1041,Variable Player Powers
+1042,Commodity Speculation
+1043,Cooperative Play
+1044,Dice Rolling
+1045,Hand Management
+1046,Hidden Traitor
+1047,Partnerships
+1048,Player Elimination
+1049,Set Collection
+1050,Variable Player Powers
+1051,Communication Limits
+1052,Cooperative Play
+1053,Grid Movement
+1054,Solo / Solitaire Game
+1055,Area Control
+1056,Area Majority/ Influence
+1057,Card Drafting
+1058,Drafting
+1059,Hand Management
+1060,Area Movement
+1061,Card Drafting
+1062,Drafting
+1063,Hand Management
+1064,Set Collection
+1065,Action Drafting
+1066,Area Majority/ Influence
+1067,Contracts
+1068,Worker Placement
+1069,Area Control
+1070,Area Majority/ Influence
+1071,Card Drafting
+1072,Drafting
+1073,Grid Movement
+1074,Tile Placement
+1075,Worker Placement
+1076,Bluffing
+1077,Engine Building
+1078,Social Deduction
+1079,Variable Player Powers
+1080,Communication Limits
+1081,Cooperative Play
+1082,Hand Management
+1083,Press Your Luck
+1084,Variable Player Powers
+1085,Card Drafting
+1086,Pattern Building
+1087,Set Collection
+1088,Solo mode (multiplayer game)
+1089,Tile Placement
+1090,Dice Rolling
+1091,Take That
+1092,Variable Player Powers
+1093,Grid Movement
+1094,Area Control
+1095,Area Majority/ Influence
+1096,Area Movement
+1097,Auction
+1098,Card Drafting
+1099,Hand Management
+1100,Memory
+1101,Simultaneous Play
+1102,Auction
+1103,Commodity Speculation
+1104,Hand Management
+1105,Acting
+1106,Memory
+1107,Role Playing
+1108,Traitor
+1109,Voting
+1110,Targeted Clues
+1111,Grid Movement
+1112,Hexagon Grid
+1113,Tile Placement
+1114,Betting
+1115,Bluffing
+1116,Dice Rolling
+1117,Roll / Spin and Move
+1118,Card Drafting
+1119,Dice Rolling
+1120,Hand Management
+1121,Take That
+1122,Victory Points as a Resource
+1123,Catch the Leader
+1124,Hand Management
+1125,Modular Board
+1126,Race
+1127,Simulation
+1128,Simultaneous Play
+1129,Auction
+1130,Betting
+1131,Hand Management
+1132,Race
+1133,Variable Player Powers
+1134,Action Drafting
+1135,Hand Management
+1136,Set Collection
+1137,Tableau Building
+1138,Variable Phase Order
+1139,Area Control
+1140,Area Enclosure
+1141,Chaining
+1142,Modular Board
+1143,Network and Route Building
+1144,Variable Setup
+1145,Area Control
+1146,Card Drafting
+1147,Drafting
+1148,Hand Management
+1149,Solo / Solitaire Game
+1150,Tile Placement
+1151,Action Point Allowance System
+1152,Cooperative Play
+1153,Hand Management
+1154,Partnerships
+1155,Point to Point Movement
+1156,Secret Unit Deployment
+1157,Set Collection
+1158,Trading
+1159,Variable Player Powers
+1160,Drafting
+1161,Hand Management
+1162,Worker Placement
+1163,Commodity Speculation
+1164,Card Drafting
+1165,Hand Management
+1166,Tile Placement
+1167,Pattern Recognition
+1168,Set Collection
+1169,Take That
+1170,Variable Setup
+1171,Dice Rolling
+1172,Hand Management
+1173,Race
+1174,Simultaneous Play
+1175,Dexterity
+1176,Flicking
+1177,Partnerships
+1178,Action Point Allowance System
+1179,Cooperative Play
+1180,Hand Management
+1181,Network and Route Building
+1182,Point to Point Movement
+1183,Set Collection
+1184,Trading
+1185,Variable Player Powers
+1186,Cooperative Play
+1187,Dice Rolling
+1188,Grid Movement
+1189,Modular Board
+1190,Press Your Luck
+1191,Roll / Spin and Move
+1192,Tile Placement
+1193,Cooperative Play
+1194,Dice Rolling
+1195,Grid Movement
+1196,Modular Board
+1197,Solo / Solitaire Game
+1198,Variable Player Powers
+1199,Card Drafting
+1200,Hand Management
+1201,Network and Route Building
+1202,Set Collection
+1203,Stock Holding
+1204,Cooperative Play
+1205,Legacy
+1206,Narrative Choice
+1207,Point to Point Movement
+1208,Scenario / Mission / Campaign Game
+1209,Set Collection
+1210,Trading
+1211,Cooperative Play
+1212,Deck Building
+1213,Engine Building
+1214,Hand Management
+1215,Solo / Solitaire Game
+1216,Variable Player Powers
+1217,Dice Rolling
+1218,Drafting
+1219,Hand Management
+1220,Take That
+1221,Variable Player Powers
+1222,Action Drafting
+1223,Card Drafting
+1224,Set Collection
+1225,Variable Player Powers
+1226,Area Control
+1227,End Game Bonuses
+1228,Modular Board
+1229,Set Collection
+1230,Worker Placement
+1231,Press Your Luck
+1232,Simultaneous action selection
+1233,Alliances
+1234,Area Majority/ Influence
+1235,Auction
+1236,Bluffing
+1237,Bribery
+1238,Negotiation
+1239,Take That
+1240,Variable Player Powers
+1241,Dice Rolling
+1242,Drafting
+1243,Network and Route Building
+1244,Set Collection
+1245,Storytelling
+1246,Variable Player Powers
+1247,Contracts
+1248,End Game Bonuses
+1249,Hand Management
+1250,Income
+1251,Point to Point Movement
+1252,Rondel
+1253,Scenario / Mission / Campaign Game
+1254,Solo mode (multiplayer game)
+1255,Action Drafting
+1256,Action Point Allowance System
+1257,Card Drafting
+1258,End Game Bonuses
+1259,Events
+1260,Hand Management
+1261,Worker Placement
+1262,Card Drafting
+1263,Set Collection
+1264,End Game Bonuses
+1265,Grid Movement
+1266,Modular Board
+1267,Network and Route Building
+1268,Resource Gathering
+1269,Set Collection
+1270,Worker Placement
+1271,Ownership
+1272,Turn Order: Pass Order
+1273,Variable Setup
+1274,Worker Placement
+1275,Area Control
+1276,Area Majority/ Influence
+1277,Area Movement
+1278,Auction
+1279,Card Drafting
+1280,Dice Rolling
+1281,Set Collection
+1282,Variable Phase Order
+1283,Cooperative Play
+1284,Deck Building
+1285,Legacy
+1286,Variable Player Powers
+1287,Hand Management
+1288,Investment
+1289,Market
+1290,Ownership
+1291,Stock Holding
+1292,Tile Placement
+1293,Area Enclosure
+1294,Grid Coverage
+1295,Hand Management
+1296,Tile Placement
+1297,Area Majority/ Influence
+1298,Tile Placement
+1299,Area Control
+1300,Area Majority/ Influence
+1301,Betting
+1302,Paper and Pencil
+1303,Area Control
+1304,Area Movement
+1305,Auction
+1306,Hand Management
+1307,Partnerships
+1308,Variable Phase Order
+1309,Variable Player Powers
+1310,Simultaneous action selection
+1311,Action Point Allowance System
+1312,Area Movement
+1313,Betting
+1314,Bluffing
+1315,Card Play Conflict Resolution
+1316,Competitive Play
+1317,End Game Bonuses
+1318,Hand Management
+1319,Pick-up and Deliver
+1320,Take That
+1321,Variable Player Powers
+1322,Cooperative Play
+1323,Dice Rolling
+1324,Grid Movement
+1325,Modular Board
+1326,Solo / Solitaire Game
+1327,Variable Player Powers
+1328,Cooperative Play
+1329,Dice Rolling
+1330,Modular Board
+1331,Solo / Solitaire Game
+1332,Variable Player Powers
+1333,Action Point Allowance System
+1334,Events
+1335,Grid Movement
+1336,Hand Management
+1337,Modular Board
+1338,Simultaneous Play
+1339,Take That
+1340,Variable Player Powers
+1341,Hand Management
+1342,Pattern Building
+1343,Tile Placement
+1344,Cooperative Play
+1345,Hand Management
+1346,Solo / Solitaire Game
+1347,Variable Player Powers
+1348,Hand Management
+1349,Set Collection
+1350,Dice Rolling
+1351,Pick-up and Deliver
+1352,Press Your Luck
+1353,Action / Movement Programming
+1354,Dice Rolling
+1355,Player Elimination
+1356,Variable Player Powers
+1357,Hand Management
+1358,Simultaneous action selection
+1359,Area Control
+1360,Area Majority/ Influence
+1361,Drafting
+1362,End Game Bonuses
+1363,Hand Management
+1364,Pick-up and Deliver
+1365,Point to Point Movement
+1366,Tile Placement
+1367,Variable Phase Order
+1368,End Game Bonuses
+1369,Worker Placement
+1370,Cooperative Play
+1371,Hand Management
+1372,Solo / Solitaire Game
+1373,Variable Player Powers
+1374,Partnerships
+1375,Point to Point Movement
+1376,Secret Unit Deployment
+1377,Variable Player Powers
+1378,Action Point Allowance System
+1379,Hand Management
+1380,Press Your Luck
+1381,Secret Unit Deployment
+1382,Simulation
+1383,Simultaneous Play
+1384,Tableau Building
+1385,Take That
+1386,Area Control
+1387,Campaign
+1388,Variable Player Powers
+1389,Hand Management
+1390,Race
+1391,Take That
+1392,Variable Player Powers
+1393,Dice Rolling
+1394,Network and Route Building
+1395,Paper and Pencil
+1396,Roll and Write
+1397,Action / Movement Programming
+1398,Dice Rolling
+1399,Variable Player Powers
+1400,Card Drafting
+1401,Deck Building
+1402,Drafting
+1403,Hand Management
+1404,Take That
+1405,Drawing
+1406,Paper and Pencil
+1407,Simultaneous Play
+1408,Card Drafting
+1409,Deck Building
+1410,Hand Management
+1411,Point to Point Movement
+1412,Race
+1413,Worker Placement
+1414,Area Movement
+1415,Cooperative Play
+1416,Dice Rolling
+1417,Role Playing
+1418,Storytelling
+1419,Variable Player Powers
+1420,Card Drafting
+1421,Engine Building
+1422,Set Collection
+1423,Action Queue
+1424,Hand Management
+1425,Set Collection
+1426,Simultaneous action selection
+1427,Variable Phase Order
+1428,Area Control
+1429,Cooperative Play
+1430,Solo / Solitaire Game
+1431,Tile Placement
+1432,Action Point Allowance System
+1433,Engine Building
+1434,Events
+1435,Hand Management
+1436,Press Your Luck
+1437,Secret Unit Deployment
+1438,Simulation
+1439,Tableau Building
+1440,Take That
+1441,Area Movement
+1442,Dexterity
+1443,Flicking
+1444,Take That
+1445,Card Drafting
+1446,End Game Bonuses
+1447,Hand Management
+1448,Set Collection
+1449,Tableau Building
+1450,Variable Phase Order
+1451,Card Drafting
+1452,Dice Rolling
+1453,Variable Player Powers
+1454,Worker Placement
+1455,Worker Placement with Dice Workers
+1456,Action / Movement Programming
+1457,Action Queue
+1458,Hand Management
+1459,Press Your Luck
+1460,Set Collection
+1461,Action Point Allowance System
+1462,Character Progression
+1463,Dice Rolling
+1464,Grid Movement
+1465,Hexagon Grid
+1466,Map Addition
+1467,Modular Board
+1468,Pick-up and Deliver
+1469,Roll / Spin and Move
+1470,Tile Placement
+1471,Variable Player Powers
+1472,Card Drafting
+1473,Partnerships
+1474,Set Collection
+1475,Simultaneous Play
+1476,Solo / Solitaire Game
+1477,Tile Placement
+1478,Hand Management
+1479,Pattern Building
+1480,Set Collection
+1481,Tile Placement
+1482,Card Drafting
+1483,Dice Rolling
+1484,End Game Bonuses
+1485,Set Collection
+1486,Worker Placement with Dice Workers
+1487,Action Point Allowance System
+1488,Area Control
+1489,End Game Bonuses
+1490,Network and Route Building
+1491,Tech Trees / Tech Tracks
+1492,Deduction
+1493,Hexagon Grid
+1494,Memory
+1495,Modular Board
+1496,Pattern Recognition
+1497,Hand Management
+1498,Tile Placement
+1499,Cooperative Play
+1500,Deck Building
+1501,Dice Rolling
+1502,Solo / Solitaire Game
+1503,Connections
+1504,Dice Rolling
+1505,Network and Route Building
+1506,Tile Placement
+1507,Worker Placement
+1508,Area Control
+1509,Campaign
+1510,Area Control
+1511,Area Majority/ Influence
+1512,Card Drafting
+1513,Dice Rolling
+1514,Worker Placement
+1515,Worker Placement with Dice Workers
+1516,
+1517,Hand Management
+1518,Player Elimination
+1519,Set Collection
+1520,Card Drafting
+1521,Deck Building
+1522,Hand Management
+1523,Action Point Allowance System
+1524,Area Majority/ Influence
+1525,Area Movement
+1526,Cooperative Play
+1527,Dice Rolling
+1528,Press Your Luck
+1529,Simulation
+1530,Solo / Solitaire Game
+1531,Time Track
+1532,Dice Rolling
+1533,Variable Player Powers
+1534,Hand Management
+1535,Card Drafting
+1536,Deck Building
+1537,Hand Management
+1538,Dice Movement
+1539,Dice Rolling
+1540,Grid Movement
+1541,Player Elimination
+1542,Press Your Luck
+1543,Race
+1544,Simulation
+1545,Area Enclosure
+1546,Grid Movement
+1547,Hexagon Grid
+1548,Modular Board
+1549,Card Drafting
+1550,Hand Management
+1551,Network and Route Building
+1552,Set Collection
+1553,Card Drafting
+1554,Press Your Luck
+1555,Set Collection
+1556,Area Enclosure
+1557,Tile Placement
+1558,Worker Placement
+1559,Card Drafting
+1560,Drafting
+1561,Tableau Building
+1562,Card Drafting
+1563,Cooperative Play
+1564,Deck Building
+1565,Partnerships
+1566,Player Elimination
+1567,Variable Player Powers
+1568,Hand Management
+1569,Take That
+1570,Betting
+1571,Dice Rolling
+1572,Roll / Spin and Move
+1573,Hand Management
+1574,Pattern Building
+1575,Set Collection
+1576,Tile Placement
+1577,Dice Rolling
+1578,Worker Placement
+1579,Worker Placement with Dice Workers
+1580,Cooperative Play
+1581,Hand Management
+1582,Role Playing
+1583,Simulation
+1584,Simultaneous Play
+1585,Storytelling
+1586,Enclosure
+1587,Investment
+1588,Negotiation
+1589,Set Collection
+1590,Tile Placement
+1591,Cooperative Play
+1592,Dice Rolling
+1593,Hand Management
+1594,Scenario / Mission / Campaign Game
+1595,Solo / Solitaire Game
+1596,Trading
+1597,Hand Management
+1598,Hidden Roles
+1599,Map Addition
+1600,Network and Route Building
+1601,Partnerships
+1602,Take That
+1603,Action / Movement Programming
+1604,Action Queue
+1605,Area Control
+1606,Card Drafting
+1607,Deck Building
+1608,Hand Management
+1609,Simultaneous Play
+1610,Stock Holding
+1611,Variable Player Powers
+1612,Worker Placement
+1613,Card Drafting
+1614,Hand Management
+1615,Set Collection
+1616,Simultaneous action selection
+1617,Variable Player Powers
+1618,Auction
+1619,Dice Rolling
+1620,Hand Management
+1621,Player Elimination
+1622,Variable Player Powers
+1623,Area Majority/ Influence
+1624,Set Collection
+1625,Tile Placement
+1626,Action Point Allowance System
+1627,Area Control
+1628,Area Majority/ Influence
+1629,Grid Movement
+1630,Hexagon Grid
+1631,Modular Board
+1632,Set Collection
+1633,Tile Placement
+1634,Bingo
+1635,Connections
+1636,Grid Movement
+1637,Network and Route Building
+1638,Simultaneous Play
+1639,Tile Placement
+1640,Deck Building
+1641,Press Your Luck
+1642,Deck Building
+1643,Engine Building
+1644,Hand Management
+1645,Resource Gathering
+1646,Area Enclosure
+1647,Card Drafting
+1648,Enclosure
+1649,Tile Placement
+1650,Variable Phase Order
+1651,Hand Management
+1652,Player Elimination
+1653,Press Your Luck
+1654,Solo / Solitaire Game
+1655,Worker Placement
+1656,Automatic Resource Growth
+1657,Card Drafting
+1658,Hand Management
+1659,Take That
+1660,Action Selection
+1661,Auction
+1662,Bidding
+1663,Hand Management
+1664,Simultaneous action selection
+1665,Worker Placement
+1666,Hand Management
+1667,Press Your Luck
+1668,Drafting
+1669,Pattern Building
+1670,Set Collection
+1671,Tile Placement
+1672,Cooperative Play
+1673,Dice Rolling
+1674,Hand Management
+1675,Point to Point Movement
+1676,Press Your Luck
+1677,Set Collection
+1678,Variable Player Powers
+1679,Dice Rolling
+1680,Hand Management
+1681,Memory
+1682,Modular Board
+1683,Trading
+1684,Network and Route Building
+1685,Action Queue
+1686,Area Control
+1687,Area Movement
+1688,Cooperative Play
+1689,Hand Management
+1690,Action / Movement Programming
+1691,Action Queue
+1692,Bias
+1693,Grid Movement
+1694,Lose a Turn
+1695,Modular Board
+1696,Scenario / Mission / Campaign Game
+1697,Simultaneous action selection
+1698,Area Control
+1699,Area Movement
+1700,Card Drafting
+1701,Dice Rolling
+1702,Player Elimination
+1703,Press Your Luck
+1704,King of The Hill
+1705,Hand Management
+1706,Simultaneous Play
+1707,Submit and Judge
+1708,Action Point Allowance System
+1709,Action Queue
+1710,Catch the Leader
+1711,Delayed Purchase
+1712,Dice Rolling
+1713,End Game Bonuses
+1714,Market
+1715,Simultaneous Play
+1716,Tile Placement
+1717,Variable Player Powers
+1718,Worker Placement
+1719,Card Drafting
+1720,Set Collection
+1721,Simultaneous Play
+1722,Variable Player Powers
+1723,Memory
+1724,Partnerships
+1725,Point to Point Movement
+1726,Secret Unit Deployment
+1727,Teams
+1728,Communication Limits
+1729,Partnerships
+1730,Teams
+1731,Area Control
+1732,Area Movement
+1733,Cooperative Play
+1734,Dice Rolling
+1735,Hand Management
+1736,Variable Player Powers
+1737,Drafting
+1738,Resource Gathering
+1739,Set Collection
+1740,Tile Placement
+1741,Dice Rolling
+1742,Hand Management
+1743,Set Collection
+1744,Variable Player Powers
+1745,Worker Placement
+1746,Worker Placement with Dice Workers
+1747,Area Control
+1748,Area Movement
+1749,Dice Rolling
+1750,Player Elimination
+1751,Set Collection
+1752,Card Drafting
+1753,Contracts
+1754,Market
+1755,Set Collection
+1756,Solo / Solitaire Game
+1757,Cooperative Play
+1758,Deck Building
+1759,Modular Board
+1760,Role Playing
+1761,Betting
+1762,Bluffing
+1763,Memory
+1764,Player Elimination
+1765,Press Your Luck
+1766,Hand Management
+1767,Pattern Building
+1768,Card Drafting
+1769,Deck Building
+1770,Legacy
+1771,Point to Point Movement
+1772,Press Your Luck
+1773,Cooperative Play
+1774,Dice Rolling
+1775,Modular Board
+1776,Variable Player Powers
+1777,Action Point Allowance System
+1778,Bag Building
+1779,Variable Player Powers
+1780,Resource Gathering
+1781,Rondel
+1782,Tile Placement
+1783,Area Enclosure
+1784,Chaining
+1785,Hexagon Grid
+1786,Hidden Victory Points
+1787,Network and Route Building
+1788,Player Elimination
+1789,Take That
+1790,Variable Player Powers
+1791,Area Control
+1792,Dice Rolling
+1793,Hand Management
+1794,Simultaneous Play
+1795,Variable Player Powers
+1796,Worker Placement
+1797,Area Control
+1798,Bag Building
+1799,Hand Management
+1800,Partnerships
+1801,Variable Player Powers
+1802,Action / Movement Programming
+1803,Action Queue
+1804,Grid Movement
+1805,Set Collection
+1806,Simultaneous action selection
+1807,Dice Rolling
+1808,Press Your Luck
+1809,Hand Management
+1810,Worker Placement
+1811,Partnerships
+1812,Pick-up and Deliver
+1813,Teams
+1814,Cooperative Play
+1815,Dice Rolling
+1816,Point to Point Movement
+1817,Role Playing
+1818,Solo / Solitaire Game
+1819,Storytelling
+1820,Variable Player Powers
+1821,Area Control
+1822,Card Drafting
+1823,Hand Management
+1824,Set Collection
+1825,Betting
+1826,Hand Management
+1827,Partnerships
+1828,Teams
+1829,Trick-taking
+1830,Area Majority/ Influence
+1831,Hand Management
+1832,Hexagon Grid
+1833,Set Collection
+1834,Tile Placement
+1835,Cooperative Play
+1836,Dice Rolling
+1837,Hand Management
+1838,Point to Point Movement
+1839,Variable Player Powers
+1840,Hand Management
+1841,Partnerships
+1842,Player Elimination
+1843,Take That
+1844,Variable Player Powers
+1845,Area Control
+1846,Area Majority/ Influence
+1847,Card Drafting
+1848,Point to Point Movement
+1849,Set Collection
+1850,Tech Trees / Tech Tracks
+1851,Dice Rolling
+1852,Modular Board
+1853,Pick-up and Deliver
+1854,Action Point Allowance System
+1855,Dice Rolling
+1856,Hexagon Grid
+1857,Modular Board
+1858,Player Elimination
+1859,Tile Placement
+1860,Trading
+1861,Variable Phase Order
+1862,Variable Player Powers
+1863,Voting
+1864,Card Drafting
+1865,Deck Building
+1866,Hand Management
+1867,Worker Placement
+1868,Dice Rolling
+1869,Grid Movement
+1870,Modular Board
+1871,Take That
+1872,Variable Player Powers
+1873,Card Drafting
+1874,Deck Building
+1875,Tile Placement
+1876,Worker Placement
+1877,Betting
+1878,Communication Limits
+1879,
+1880,Teams
+1881,Action Queue
+1882,Action Selection
+1883,Area Majority/ Influence
+1884,Dice Rolling
+1885,Point to Point Movement
+1886,Variable Player Powers
+1887,Worker Placement with Dice Workers
+1888,Area Movement
+1889,Cooperative Play
+1890,Dice Rolling
+1891,Variable Player Powers
+1892,Pattern Building
+1893,Set Collection
+1894,Tile Placement
+1895,Area Movement
+1896,Hand Management
+1897,Pick-up and Deliver
+1898,Set Collection
+1899,Simultaneous Play
+1900,Hand Management
+1901,Simultaneous action selection
+1902,Variable Phase Order
+1903,Variable Player Powers
+1904,Action Point Allowance System
+1905,Grid Movement
+1906,Hand Management
+1907,Modular Board
+1908,Tile Placement
+1909,Variable Player Powers
+1910,Simultaneous Play
+1911,Storytelling
+1912,Voting
+1913,Card Drafting
+1914,Variable Player Powers
+1915,Hand Management
+1916,Set Collection
+1917,Worker Placement
+1918,Card Drafting
+1919,Hand Management
+1920,Set Collection
+1921,Simultaneous action selection
+1922,Teams
+1923,Variable Player Powers
+1924,Dice Rolling
+1925,Hand Management
+1926,Memory
+1927,Modular Board
+1928,Trading
+1929,Network and Route Building
+1930,Card Drafting
+1931,Deck Building
+1932,Hand Management
+1933,Variable Phase Order
+1934,Card Drafting
+1935,Drawing
+1936,End Game Bonuses
+1937,Income
+1938,Set Collection
+1939,Solo / Solitaire Game
+1940,Dexterity
+1941,Hand Management
+1942,Player Elimination
+1943,Simultaneous Play
+1944,Engine Building
+1945,Hand Management
+1946,Tableau Building
+1947,Dice Rolling
+1948,Hand Management
+1949,Bingo
+1950,Dice Rolling
+1951,Paper and Pencil
+1952,Area Majority/ Influence
+1953,Dice Rolling
+1954,Grid Movement
+1955,Modular Board
+1956,Hand Management
+1957,Stacking and Balancing
+1958,Area Movement
+1959,Dice Rolling
+1960,Modular Board
+1961,Press Your Luck
+1962,Area Control
+1963,Modular Board
+1964,Role Playing
+1965,Variable Phase Order
+1966,Card Drafting
+1967,Dice Rolling
+1968,Hand Management
+1969,Set Collection
+1970,Area Control
+1971,Area Majority/ Influence
+1972,Area Movement
+1973,Deck Building
+1974,Hand Management
+1975,Variable Player Powers
+1976,Hand Management
+1977,Partnerships
+1978,Pattern Building
+1979,Tile Placement
+1980,Action Point Allowance System
+1981,Hand Management
+1982,Worker Placement
+1983,Dice Rolling
+1984,Grid Movement
+1985,Hand Management
+1986,Variable Player Powers
+1987,Partnerships
+1988,Simultaneous Play
+1989,Storytelling
+1990,Voting
+1991,Dice Rolling
+1992,Tableau Building
+1993,Worker Placement
+1994,Area Control
+1995,Area Majority/ Influence
+1996,Dice Rolling
+1997,Tile Placement
+1998,Trading
+1999,Auction
+2000,Bidding
+2001,Card Drafting
+2002,Hand Management
+2003,Memory
+2004,Press Your Luck
+2005,Set Collection
+2006,Auction
+2007,Card Drafting
+2008,Commodity Speculation
+2009,Stock Holding
+2010,Cooperative Play
+2011,Dice Rolling
+2012,Hand Management
+2013,Point to Point Movement
+2014,Variable Player Powers
+2015,Area Movement
+2016,Card Drafting
+2017,Dice Rolling
+2018,Legacy
+2019,Player Elimination
+2020,Variable Player Powers
+2021,Card Drafting
+2022,Deck Building
+2023,Grid Movement
+2024,Variable Player Powers
+2025,Dice Rolling
+2026,Press Your Luck
+2027,Cooperative Play
+2028,Storytelling
+2029,Action Point Allowance System
+2030,Cooperative Play
+2031,Dice Rolling
+2032,Grid Movement
+2033,Press Your Luck
+2034,Role Playing
+2035,Simulation
+2036,Storytelling
+2037,Worker Placement
+2038,Action Selection
+2039,Card Drafting
+2040,Worker Placement
+2041,Action / Movement Programming
+2042,Modular Board
+2043,Network and Route Building
+2044,Order Fulfillment
+2045,Variable Player Powers
+2046,Worker Placement
+2047,Area Control
+2048,Area Majority/ Influence
+2049,Dice Rolling
+2050,Grid Movement
+2051,Pick-up and Deliver
+2052,Solo / Solitaire Game
+2053,Take That
+2054,Force Commitment
+2055,Area Enclosure
+2056,Card Drafting
+2057,End Game Bonuses
+2058,Tableau Building
+2059,Variable Player Powers
+2060,Action Point Allowance System
+2061,Area Majority/ Influence
+2062,Dice Rolling
+2063,Take That
+2064,Variable Player Powers
+2065,Area Control
+2066,Point to Point Movement
+2067,Card Drafting
+2068,Dice Rolling
+2069,Pattern Building
+2070,Modular Board
+2071,Worker Placement
+2072,Area Movement
+2073,Card Drafting
+2074,Dice Rolling
+2075,Pick-up and Deliver
+2076,Solo / Solitaire Game
+2077,Take That
+2078,Trading
+2079,Variable Player Powers
+2080,Area Control
+2081,Dice Rolling
+2082,Deck Building
+2083,Hand Management
+2084,Network and Route Building
+2085,Card Drafting
+2086,Set Collection
+2087,Solo / Solitaire Game
+2088,Pattern Building
+2089,Set Collection
+2090,Card Drafting
+2091,Hand Management
+2092,Network and Route Building
+2093,Set Collection
+2094,Cooperative Play
+2095,Hand Management
+2096,Real Time
+2097,Variable Player Powers
+2098,Connections
+2099,Hand Management
+2100,Tug of War
+2101,Grid Movement
+2102,Modular Board
+2103,Pick-up and Deliver
+2104,Set Collection
+2105,Hand Management
+2106,Simultaneous Play
+2107,Simultaneous action selection
+2108,Submit and Judge
+2109,
+2110,Deck Building
+2111,Hand Management
+2112,
+2113,Take That
+2114,Set Collection
+2115,Tile Placement
+2116,Area Control
+2117,Area Majority/ Influence
+2118,Auction
+2119,Bidding
+2120,Tile Placement
+2121,Action Point Allowance System
+2122,Area Movement
+2123,Dice Rolling
+2124,Pick-up and Deliver
+2125,Variable Player Powers
+2126,Action Selection
+2127,Bluffing
+2128,Engine Building
+2129,
+2130,Hidden Traitor
+2131,Modular Board
+2132,
+2133,Resource Gathering
+2134,Trading
+2135,Dice Rolling
+2136,Set Collection
+2137,Worker Placement
+2138,Worker Placement with Dice Workers
+2139,Card Drafting
+2140,Partnerships
+2141,Set Collection
+2142,Tile Placement
+2143,Card Drafting
+2144,Hand Management
+2145,Network and Route Building
+2146,Set Collection
+2147,Simultaneous Play
+2148,Storytelling
+2149,Voting
+2150,Deck Building
+2151,Engine Building
+2152,Hand Management
+2153,Simultaneous action selection
+2154,Teams
+2155,Card Drafting
+2156,Set Collection
+2157,Action Selection
+2158,
+2159,Engine Building
+2160,Rondel
+2161,Tableau Building
+2162,Variable Player Powers
+2163,Action Point Allowance System
+2164,Auction
+2165,Bidding
+2166,Card Drafting
+2167,Network and Route Building
+2168,Pick-up and Deliver
+2169,Tile Placement
+2170,Turn Order: Auction
+2171,Action / Movement Programming
+2172,Cooperative Play
+2173,Dice Rolling
+2174,Hand Management
+2175,Variable Player Powers
+2176,Dice Rolling
+2177,Hand Management
+2178,Variable Player Powers
+2179,Role Playing
+2180,Acting
+2181,Area Majority/ Influence
+2182,Hand Management
+2183,Hand Management
+2184,Set Collection
+2185,Card Drafting
+2186,Cooperative Play
+2187,Hand Management
+2188,Partnerships
+2189,
+2190,Real Time
+2191,Set Collection
+2192,Simulation
+2193,
+2194,Trading
+2195,Commodity Speculation
+2196,Deduction
+2197,Dice Rolling
+2198,Grid Movement
+2199,Memory
+2200,Roll / Spin and Move
+2201,Hand Management
+2202,Memory
+2203,Secret Unit Deployment
+2204,Cooperative Play
+2205,Dice Rolling
+2206,Hand Management
+2207,Set Collection
+2208,Variable Player Powers
+2209,Area Control
+2210,Area Majority/ Influence
+2211,Deck Building
+2212,Take That
+2213,Card Drafting
+2214,Hand Management
+2215,Set Collection
+2216,Solo / Solitaire Game
+2217,Tile Placement
+2218,Variable Player Powers
+2219,Worker Placement
+2220,Area Majority/ Influence
+2221,Variable Phase Order
+2222,Worker Placement
+2223,Commodity Speculation
+2224,Dice Rolling
+2225,Grid Movement
+2226,Rondel
+2227,Set Collection
+2228,Tableau Building
+2229,Tile Placement
+2230,Time Track
+2231,Card Drafting
+2232,Deck Building
+2233,Hand Management
+2234,Point to Point Movement
+2235,Worker Placement
+2236,Deduction
+2237,Grid Movement
+2238,Hand Management
+2239,Modular Board
+2240,Press Your Luck
+2241,Auction
+2242,Negotiation
+2243,Trading
+2244,Variable Player Powers
+2245,Card Drafting
+2246,Drafting
+2247,Race
+2248,Tableau Building
+2249,Take That
+2250,Worker Placement
+2251,Action Point Allowance System
+2252,Cooperative Play
+2253,Hand Management
+2254,Point to Point Movement
+2255,Set Collection
+2256,Trading
+2257,Variable Player Powers
+2258,Area Control
+2259,Card Drafting
+2260,Point to Point Movement
+2261,Card Drafting
+2262,Dice Rolling
+2263,Modular Board
+2264,Variable Player Powers
+2265,Card Drafting
+2266,Deck Building
+2267,Hand Management
+2268,Auction
+2269,Bidding
+2270,Catch the Leader
+2271,Dice Rolling
+2272,Loans
+2273,Network and Route Building
+2274,Pick-up and Deliver
+2275,Player Elimination
+2276,Scenario / Mission / Campaign Game
+2277,Tile Placement
+2278,Victory Points as a Resource
+2279,Hand Management
+2280,Player Elimination
+2281,Take That
+2282,Variable Player Powers
+2283,Card Drafting
+2284,Hand Management
+2285,Network and Route Building
+2286,Set Collection
+2287,Auction
+2288,Bidding
+2289,Tile Placement
+2290,Hand Management
+2291,Dexterity
+2292,Dice Rolling
+2293,Drafting
+2294,Worker Placement
+2295,Flicking
+2296,Modular Board
+2297,Race
+2298,Cooperative Play
+2299,Dice Rolling
+2300,Role Playing
+2301,Storytelling
+2302,Variable Player Powers
+2303,Dice Rolling
+2304,Network and Route Building
+2305,Paper and Pencil
+2306,Cooperative Play
+2307,Dice Rolling
+2308,Grid Movement
+2309,Role Playing
+2310,Storytelling
+2311,Acting
+2312,Card Drafting
+2313,Role Playing
+2314,Singing
+2315,Area Movement
+2316,Rondel
+2317,Card Drafting
+2318,Hand Management
+2319,Set Collection
+2320,Card Drafting
+2321,Hand Management
+2322,Card Drafting
+2323,Deck Building
+2324,Hand Management
+2325,Take That
+2326,Set Collection
+2327,Action Point Allowance System
+2328,Cooperative Play
+2329,Dice Rolling
+2330,Grid Movement
+2331,Hand Management
+2332,Modular Board
+2333,Player Elimination
+2334,Scenario / Mission / Campaign Game
+2335,Variable Player Powers
+2336,Action Point Allowance System
+2337,Auction
+2338,Drafting
+2339,Hand Management
+2340,Card Drafting
+2341,Hand Management
+2342,Set Collection
+2343,Card Drafting
+2344,Cooperative Play
+2345,Deck Building
+2346,Hand Management
+2347,Variable Phase Order
+2348,Variable Player Powers
+2349,Area Control
+2350,Grid Movement
+2351,Hand Management
+2352,Modular Board
+2353,Network and Route Building
+2354,Area Control
+2355,Dice Rolling
+2356,Hand Management
+2357,Modular Board
+2358,Variable Player Powers
+2359,Pattern Recognition
+2360,Cooperative Play
+2361,Dice Rolling
+2362,Point to Point Movement
+2363,Role Playing
+2364,Variable Player Powers
+2365,Area Control
+2366,Area Majority/ Influence
+2367,Card Drafting
+2368,Deck Building
+2369,Hand Management
+2370,Set Collection
+2371,Card Drafting
+2372,Hand Management
+2373,Variable Phase Order
+2374,Worker Placement
+2375,Hand Management
+2376,Hexagon Grid
+2377,Player Elimination
+2378,Tile Placement
+2379,Variable Player Powers
+2380,Auction
+2381,Bidding
+2382,Loans
+2383,Network and Route Building
+2384,Pick-up and Deliver
+2385,Tile Placement
+2386,Dice Rolling
+2387,Paper and Pencil
+2388,Modular Board
+2389,Network and Route Building
+2390,Point to Point Movement
+2391,Tile Placement
+2392,Tile movement
+2393,Card Drafting
+2394,Cooperative Play
+2395,Hand Management
+2396,Modular Board
+2397,Simultaneous Play
+2398,Variable Player Powers
+2399,Action Point Allowance System
+2400,Area Movement
+2401,Cooperative Play
+2402,Dice Rolling
+2403,Hand Management
+2404,Press Your Luck
+2405,Storytelling
+2406,Variable Player Powers
+2407,Voting
+2408,Deck Constructing
+2409,Card Drafting
+2410,Hand Management
+2411,Partnerships
+2412,Set Collection
+2413,Variable Phase Order
+2414,Card Drafting
+2415,Grid Coverage
+2416,Pattern Building
+2417,Tile Placement
+2418,Area Control
+2419,Dice Rolling
+2420,Variable Player Powers
+2421,Action Selection
+2422,Dice Rolling
+2423,Modular Board
+2424,
+2425,Simulation
+2426,
+2427,Hand Management
+2428,Set Collection
+2429,Cooperative Play
+2430,Hidden Movement
+2431,Cooperative Play
+2432,Dice Rolling
+2433,Hand Management
+2434,Role Playing
+2435,Variable Player Powers
+2436,Bingo
+2437,Layering
+2438,Pattern Building
+2439,Simultaneous Play
+2440,Simultaneous action selection
+2441,Tile Placement
+2442,Card Drafting
+2443,Cooperative Play
+2444,Deck Building
+2445,Hand Management
+2446,Variable Phase Order
+2447,Variable Player Powers
+2448,Action Point Allowance System
+2449,Area Control
+2450,Area Majority/ Influence
+2451,Card Drafting
+2452,Grid Movement
+2453,Hand Management
+2454,Betting
+2455,Bluffing
+2456,Dice Rolling
+2457,Hidden Victory Points
+2458,Press Your Luck
+2459,Card Drafting
+2460,Dice Rolling
+2461,Set Collection
+2462,Simultaneous action selection
+2463,Resource Gathering
+2464,Tile Placement
+2465,Worker Placement
+2466,Dice Rolling
+2467,Grid Movement
+2468,Hidden Movement
+2469,Partnerships
+2470,Point to Point Movement
+2471,Secret Unit Deployment
+2472,Teams
+2473,Variable Player Powers
+2474,Card Drafting
+2475,Deck Building
+2476,Hand Management
+2477,Area Control
+2478,Auction
+2479,Card Drafting
+2480,Hand Management
+2481,Variable Player Powers
+2482,Worker Placement
+2483,Dice Rolling
+2484,Action Point Allowance System
+2485,Cooperative Play
+2486,Dice Rolling
+2487,Hand Management
+2488,Pick-up and Deliver
+2489,Point to Point Movement
+2490,Press Your Luck
+2491,Set Collection
+2492,Variable Player Powers
+2493,Card Drafting
+2494,Cooperative Play
+2495,Deck Building
+2496,Dice Rolling
+2497,Grid Movement
+2498,Hand Management
+2499,Modular Board
+2500,Role Playing
+2501,Tile Placement
+2502,Variable Player Powers
+2503,Card Drafting
+2504,Network and Route Building
+2505,Set Collection
+2506,Stock Holding
+2507,Card Drafting
+2508,Deck Building
+2509,Hand Management
+2510,Take That
+2511,Tile Placement
+2512,Network and Route Building
+2513,Action / Movement Programming
+2514,Action Point Allowance System
+2515,Area Movement
+2516,Pick-up and Deliver
+2517,Press Your Luck
+2518,Set Collection
+2519,Take That
+2520,Drawing
+2521,Hand Management
+2522,Variable Player Powers
+2523,Card Drafting
+2524,Deck Building
+2525,Press Your Luck
+2526,Set Collection
+2527,Spelling Words
+2528,Dice Rolling
+2529,Hand Management
+2530,Modular Board
+2531,Partnerships
+2532,Roll / Spin and Move
+2533,Variable Player Powers
+2534,Dice Rolling
+2535,Set Collection
+2536,Area Control
+2537,Auction
+2538,Hand Management
+2539,Card Drafting
+2540,Pattern Building
+2541,Pattern Recognition
+2542,Tile Placement
+2543,Cooperative Play
+2544,Tile Placement
+2545,Commodity Speculation
+2546,Dice Rolling
+2547,Grid Movement
+2548,Market
+2549,Rondel
+2550,Set Collection
+2551,Tableau Building
+2552,Tile Placement
+2553,Time Track
+2554,Hand Management
+2555,Set Collection
+2556,Card Drafting
+2557,Drafting
+2558,Tile Placement
+2559,Deck Building
+2560,Dice Rolling
+2561,Area Control
+2562,Hand Management
+2563,Tile Placement
+2564,Card Drafting
+2565,Deck Building
+2566,Dice Rolling
+2567,Cooperative Play
+2568,Card Drafting
+2569,Set Collection
+2570,Catch the Leader
+2571,Grid Movement
+2572,Pattern Building
+2573,Card Placement
+2574,Cooperative Play
+2575,Feeding Workers/Characters
+2576,Hand Management
+2577,Roles with Asymmetric Information
+2578,Solo / Solitaire Game
+2579,Card Drafting
+2580,Hand Management
+2581,Tile Placement
+2582,Variable Player Powers
+2583,Area Control
+2584,Campaign
+2585,Hand Management
+2586,Card Drafting
+2587,Hand Management
+2588,Network and Route Building
+2589,Set Collection
+2590,Action Queue
+2591,Area Majority/ Influence
+2592,Auction
+2593,Cube tower
+2594,Simultaneous action selection
+2595,Variable Phase Order
+2596,Action Point Allowance System
+2597,Dice Rolling
+2598,Modular Board
+2599,Pick-up and Deliver
+2600,Variable Player Powers
+2601,Grid Movement
+2602,Memory
+2603,Secret Unit Deployment
+2604,Card Drafting
+2605,Simultaneous Play
+2606,Tile Placement
+2607,Variable Player Powers
+2608,Dice Rolling
+2609,Open Drafting
+2610,Pool Building
+2611,Area Majority/ Influence
+2612,Area Movement
+2613,Player Elimination
+2614,Simultaneous action selection
+2615,Card Drafting
+2616,End Game Bonuses
+2617,Hand Management
+2618,Income
+2619,Ownership
+2620,Dice Rolling
+2621,Set Collection
+2622,Storytelling
+2623,Action Queue
+2624,Area Control
+2625,Area Majority/ Influence
+2626,Area development
+2627,Modular Board
+2628,Variable Player Powers
+2629,Hand Management
+2630,Set Collection
+2631,Take That
+2632,Hand Management
+2633,Player Elimination
+2634,Auction
+2635,Player Elimination
+2636,Roll / Spin and Move
+2637,Set Collection
+2638,Trading
+2639,Action Selection
+2640,Area Control
+2641,Area Majority/ Influence
+2642,Area Movement
+2643,Take That
+2644,Variable Phase Order
+2645,Variable Player Powers
+2646,Worker Placement
+2647,Hand Management
+2648,Variable Phase Order
+2649,Action / Movement Programming
+2650,Action Queue
+2651,Hand Management
+2652,Simultaneous Play
+2653,Simultaneous action selection
+2654,Tile Placement
+2655,Worker Placement
+2656,Action Point Allowance System
+2657,Cooperative Play
+2658,Hand Management
+2659,Point to Point Movement
+2660,Set Collection
+2661,Variable Player Powers
+2662,Card Drafting
+2663,Hand Management
+2664,Pattern Building
+2665,Press Your Luck
+2666,Set Collection
+2667,Worker Placement
+2668,Area Control
+2669,Area Majority/ Influence
+2670,Dice Rolling
+2671,Hand Management
+2672,Hexagon Grid
+2673,Modular Board
+2674,Take That
+2675,Action Point Allowance System
+2676,Grid Movement
+2677,Modular Board
+2678,Tile Placement
+2679,Card Drafting
+2680,Dice Rolling
+2681,Set Collection
+2682,Variable Player Powers
+2683,Worker Placement
+2684,Action Point Allowance System
+2685,Area Control
+2686,Dice Rolling
+2687,Hand Management
+2688,Modular Board
+2689,Variable Player Powers
+2690,Dice Rolling
+2691,Pick-up and Deliver
+2692,Point to Point Movement
+2693,Roll / Spin and Move
+2694,Grid Movement
+2695,Modular Board
+2696,Rock-Paper-Scissors
+2697,Trading
+2698,Area Movement
+2699,Campaign / Battle Card Driven
+2700,Cooperative Play
+2701,Deck Building
+2702,Dice Rolling
+2703,Hand Management
+2704,Modular Board
+2705,Narrative Choice
+2706,Press Your Luck
+2707,Role Playing
+2708,Solo / Solitaire Game
+2709,Variable Player Powers
+2710,Card Drafting
+2711,Deck Building
+2712,Hand Management
+2713,Hand Management
+2714,Press Your Luck
+2715,Card Drafting
+2716,Set Collection
+2717,
+2718,Deck Building
+2719,Hand Management
+2720,Take That
+2721,Area Movement
+2722,Modular Board
+2723,Auction
+2724,Grid Movement
+2725,Set Collection
+2726,Set Collection
+2727,Variable Player Powers
+2728,Worker Placement
+2729,Action Point Allowance System
+2730,Variable Phase Order
+2731,Worker Placement
+2732,Card Drafting
+2733,Hand Management
+2734,Set Collection
+2735,Simultaneous Play
+2736,Card Drafting
+2737,Dice Rolling
+2738,Hand Management
+2739,Simultaneous Play
+2740,Worker Placement
+2741,Worker Placement with Dice Workers
+2742,Cooperative Play
+2743,Hand Management
+2744,Set Collection
+2745,Solo / Solitaire Game
+2746,Auction
+2747,Bidding
+2748,Network and Route Building
+2749,Ownership
+2750,Stock Holding
+2751,Area Majority/ Influence
+2752,Auction
+2753,Voting
+2754,Worker Placement
+2755,Cooperative Play
+2756,Storytelling
+2757,Bingo
+2758,End Game Bonuses
+2759,Grid Coverage
+2760,Paper and Pencil
+2761,Set Collection
+2762,Card Drafting
+2763,Competitive Play
+2764,Cooperative Play
+2765,Hand Management
+2766,Partnerships
+2767,Pattern Building
+2768,Worker Placement
+2769,Hand Management
+2770,Trick-taking
+2771,Deck Building
+2772,Betting
+2773,Bluffing
+2774,Dice Rolling
+2775,Set Collection
+2776,Trading
+2777,Dice Rolling
+2778,Paper and Pencil
+2779,Dice Rolling
+2780,Set Collection
+2781,Tile Placement
+2782,Variable Player Powers
+2783,Action Point Allowance System
+2784,Hand Management
+2785,Pick-up and Deliver
+2786,Tile Placement
+2787,Deck Building
+2788,Hand Management
+2789,Take That
+2790,Variable Player Powers
+2791,Area Control
+2792,Area Majority/ Influence
+2793,Card Drafting
+2794,Simultaneous Play
+2795,Solo / Solitaire Game
+2796,Tile Placement
+2797,Dice Rolling
+2798,Events
+2799,Scenario / Mission / Campaign Game
+2800,Storytelling
+2801,Worker Placement
+2802,Modular Board
+2803,Network and Route Building
+2804,Area Control
+2805,Hand Management
+2806,Take That
+2807,Variable Player Powers
+2808,Action Point Allowance System
+2809,Area Enclosure
+2810,Area Movement
+2811,Card Drafting
+2812,Hand Management
+2813,Modular Board
+2814,Tile Placement
+2815,Card Drafting
+2816,Tile Placement
+2817,Auction
+2818,Bidding
+2819,Hexagon Grid
+2820,Income
+2821,Network and Route Building
+2822,Stock Holding
+2823,Action Point Allowance System
+2824,Area Movement
+2825,Dice Rolling
+2826,Hand Management
+2827,Modular Board
+2828,Role Playing
+2829,Storytelling
+2830,Variable Player Powers
+2831,Dice Rolling
+2832,Drafting
+2833,Paper and Pencil
+2834,Dice Rolling
+2835,Paper and Pencil
+2836,Press Your Luck
+2837,Set Collection
+2838,Area Control
+2839,Card Drafting
+2840,Deck Building
+2841,Hand Management
+2842,Point to Point Movement
+2843,Betting
+2844,Dice Rolling
+2845,Roll / Spin and Move
+2846,Grid Movement
+2847,Hand Management
+2848,Tile Placement
+2849,Deck Building
+2850,Player Elimination
+2851,Point to Point Movement
+2852,Press Your Luck
+2853,Area Control
+2854,Card Drafting
+2855,Deck Building
+2856,Hand Management
+2857,Point to Point Movement
+2858,Pool Building
+2859,Cooperative Play
+2860,Dice Rolling
+2861,Grid Movement
+2862,Legacy
+2863,Modular Board
+2864,Player Elimination
+2865,Role Playing
+2866,Storytelling
+2867,Tile Placement
+2868,Action Point Allowance System
+2869,Area Control
+2870,Area Enclosure
+2871,Grid Movement
+2872,Tile Placement
+2873,Cooperative Play
+2874,Dice Rolling
+2875,Press Your Luck
+2876,Solo / Solitaire Game
+2877,Variable Player Powers
+2878,Worker Placement
+2879,Area Movement
+2880,Auction
+2881,Dice Rolling
+2882,Set Collection
+2883,Trading
+2884,Partnerships
+2885,Point to Point Movement
+2886,Secret Unit Deployment
+2887,Hand Management
+2888,Player Elimination
+2889,Area Control
+2890,Area Majority/ Influence
+2891,Connections
+2892,End Game Bonuses
+2893,Network and Route Building
+2894,Set Collection
+2895,Partnerships
+2896,Hand Management
+2897,Player Elimination
+2898,Point to Point Movement
+2899,Simultaneous Play
+2900,Solo / Solitaire Game
+2901,Area Control
+2902,Pick-up and Deliver
+2903,Point to Point Movement
+2904,Simulation
+2905,Area Control
+2906,Card Drafting
+2907,Set Collection
+2908,Dice Rolling
+2909,Hand Management
+2910,Network and Route Building
+2911,Player Elimination
+2912,Tile Placement
+2913,Dice Rolling
+2914,Pattern Building
+2915,Set Collection
+2916,Area Enclosure
+2917,Tile Placement
+2918,Bingo
+2919,Card Drafting
+2920,Press Your Luck
+2921,Set Collection
+2922,Press Your Luck
+2923,Set Collection
+2924,Solo / Solitaire Game
+2925,Area Control
+2926,Card Drafting
+2927,Hand Management
+2928,Network and Route Building
+2929,Take That
+2930,Bias
+2931,Dice Rolling
+2932,Hand Management
+2933,Solo / Solitaire Game
+2934,Hand Management
+2935,Player Elimination
+2936,Take That
+2937,Variable Player Powers
+2938,Pattern Recognition
+2939,Set Collection
+2940,Card Drafting
+2941,Dice Rolling
+2942,Hand Management
+2943,Set Collection
+2944,Acting
+2945,Partnerships
+2946,Variable Player Powers
+2947,Voting
+2948,Card Drafting
+2949,Hand Management
+2950,Network and Route Building
+2951,Point to Point Movement
+2952,Set Collection
+2953,Action Point Allowance System
+2954,Hand Management
+2955,Set Collection
+2956,Card Drafting
+2957,Deck Building
+2958,Dice Rolling
+2959,Hand Management
+2960,Set Collection
+2961,Deck Building
+2962,Dice Rolling
+2963,Variable Phase Order
+2964,Variable Player Powers
+2965,Worker Placement
+2966,Card Drafting
+2967,Hand Management
+2968,Memory
+2969,Set Collection
+2970,Tile Placement
+2971,Action Point Allowance System
+2972,Card Play Conflict Resolution
+2973,Force Commitment
+2974,Hand Management
+2975,Point to Point Movement
+2976,Secret Unit Deployment
+2977,Turn Order: Auction
+2978,Variable Setup
+2979,Deck Building
+2980,Action Point Allowance System
+2981,Area Majority/ Influence
+2982,Area Movement
+2983,Dice Rolling
+2984,Variable Player Powers
+2985,Area Control
+2986,Area Movement
+2987,Card Drafting
+2988,Set Collection
+2989,Area Control
+2990,Area Movement
+2991,Campaign
+2992,Dice Rolling
+2993,Partnerships
+2994,Variable Player Powers
+2995,Auction
+2996,Card Drafting
+2997,Modular Board
+2998,Tile Placement
+2999,Network and Route Building
+3000,Bag Building
+3001,Cooperative Play
+3002,Point to Point Movement
+3003,Worker Placement
+3004,Area Control
+3005,Area Movement
+3006,Hand Management
+3007,Variable Player Powers
+3008,Worker Placement
+3009,Area Movement
+3010,Dice Rolling
+3011,Variable Player Powers
+3012,Card Drafting
+3013,Set Collection
+3014,Variable Setup
+3015,Simultaneous Play
+3016,Area Movement
+3017,Flicking
+3018,
+3019,Set Collection
+3020,Variable Player Powers
+3021,Area Control
+3022,Area Majority/ Influence
+3023,Area Movement
+3024,Modular Board
+3025,Hidden Traitor
+3026,Role Playing
+3027,Variable Player Powers
+3028,Voting
+3029,Bluffing
+3030,Memory
+3031,Grid Movement
+3032,Network and Route Building
+3033,Drafting
+3034,Engine Building
+3035,Worker Placement
+3036,Area Control
+3037,Area Majority/ Influence
+3038,Dice Rolling
+3039,Hand Management
+3040,Hidden Roles
+3041,Take That
+3042,Variable Player Powers
+3043,Cooperative Play
+3044,Dice Rolling
+3045,Hand Management
+3046,Press Your Luck
+3047,Real Time
+3048,Variable Player Powers
+3049,Card Drafting
+3050,Hand Management
+3051,Tableau Building
+3052,Variable Player Powers
+3053,Area Control
+3054,Auction
+3055,Pick-up and Deliver
+3056,Stock Holding
+3057,Cooperative Play
+3058,Pick-up and Deliver
+3059,Point to Point Movement
+3060,Solo / Solitaire Game
+3061,Variable Player Powers
+3062,Card Drafting
+3063,Hand Management
+3064,Worker Placement
+3065,Action / Movement Programming
+3066,
+3067,Hidden Movement
+3068,Resource Gathering
+3069,Take That
+3070,Card Drafting
+3071,Resource Gathering
+3072,Set Collection
+3073,
+3074,Dice Rolling
+3075,Set Collection
+3076,Tile Placement
+3077,Worker Placement
+3078,
+3079,Dice Rolling
+3080,Hexagon Grid
+3081,Paper and Pencil
+3082,Set Collection
+3083,Turn Order: Progressive
+3084,Variable Player Powers
+3085,Voting
+3086,Cooperative Play
+3087,Dice Rolling
+3088,Modular Board
+3089,Variable Player Powers
+3090,Cooperative Play
+3091,Deck Building
+3092,Hand Management
+3093,Memory
+3094,Simultaneous Play
+3095,Solo / Solitaire Game
+3096,Grid Movement
+3097,Hand Management
+3098,Partnerships
+3099,Pattern Building
+3100,Tile Placement
+3101,Variable Player Powers
+3102,Area Control
+3103,Cooperative Play
+3104,Dice Rolling
+3105,Modular Board
+3106,Partnerships
+3107,Pick-up and Deliver
+3108,Press Your Luck
+3109,Variable Player Powers
+3110,Card Drafting
+3111,Dice Rolling
+3112,Hand Management
+3113,Press Your Luck
+3114,Set Collection
+3115,Simulation
+3116,Dice Rolling
+3117,Partnerships
+3118,Set Collection
+3119,Tile Placement
+3120,Betting
+3121,Bluffing
+3122,Paper and Pencil
+3123,Modular Board
+3124,Action Point Allowance System
+3125,Cooperative Play
+3126,Hand Management
+3127,Point to Point Movement
+3128,Set Collection
+3129,
+3130,Teams
+3131,Trading
+3132,Variable Player Powers
+3133,Card Drafting
+3134,Competitive Play
+3135,Contracts
+3136,Layering
+3137,Open Drafting
+3138,Set Collection
+3139,Tile Placement
+3140,Player Elimination
+3141,Cooperative Play
+3142,Dice Rolling
+3143,Point to Point Movement
+3144,Role Playing
+3145,Storytelling
+3146,Variable Player Powers
+3147,Dice Rolling
+3148,Hand Management
+3149,Modular Board
+3150,Area Majority/ Influence
+3151,Modular Board
+3152,Point to Point Movement
+3153,Solo / Solitaire Game
+3154,Tile Placement
+3155,Worker Placement
+3156,Card Drafting
+3157,Deck Building
+3158,Hand Management
+3159,Action / Movement Programming
+3160,Action Queue
+3161,Area Enclosure
+3162,Hand Management
+3163,Modular Board
+3164,Set Collection
+3165,Pattern Building
+3166,Set Collection
+3167,Dice Rolling
+3168,Take That
+3169,Worker Placement
+3170,Cooperative Play
+3171,Dice Rolling
+3172,Role Playing
+3173,Storytelling
+3174,Time Track
+3175,Variable Player Powers
+3176,Voting
+3177,Action Selection
+3178,Card Drafting
+3179,Card Placement
+3180,Deck Building
+3181,Hand Management
+3182,Set Collection
+3183,Hand Management
+3184,Simultaneous Play
+3185,Card Drafting
+3186,Hand Management
+3187,Tile Placement
+3188,Auction
+3189,Bidding
+3190,Income
+3191,Investment
+3192,Press Your Luck
+3193,Set Collection
+3194,Area Control
+3195,Dice Rolling
+3196,Pick-up and Deliver
+3197,Point to Point Movement
+3198,Stock Holding
+3199,Worker Placement
+3200,Grid Movement
+3201,Hexagon Grid
+3202,Hidden Movement
+3203,Hidden Roles
+3204,Partnerships
+3205,Secret Unit Deployment
+3206,Variable Player Powers
+3207,Card Drafting
+3208,Dice Rolling
+3209,Hand Management
+3210,Solo / Solitaire Game
+3211,Tile Placement
+3212,Deck Building
+3213,Hand Management
+3214,Set Collection
+3215,Tile Placement
+3216,Variable Player Powers
+3217,Modular Board
+3218,Tile Placement
+3219,Trading
+3220,Hand Management
+3221,Variable Phase Order
+3222,Dice Rolling
+3223,Hand Management
+3224,Variable Player Powers
+3225,Hand Management
+3226,Partnerships
+3227,Player Elimination
+3228,Take That
+3229,Variable Player Powers
+3230,Set Collection
+3231,Variable Player Powers
+3232,Worker Placement
+3233,Card Drafting
+3234,Set Collection
+3235,Cooperative Play
+3236,Network and Route Building
+3237,Solo / Solitaire Game
+3238,Time Track
+3239,Dice Rolling
+3240,Press Your Luck
+3241,Dice Rolling
+3242,Set Collection
+3243,Worker Placement
+3244,Area Majority/ Influence
+3245,Card Drafting
+3246,Deck Building
+3247,Dice Rolling
+3248,Hand Management
+3249,Action Point Allowance System
+3250,Area Control
+3251,Area Enclosure
+3252,Enclosure
+3253,Grid Movement
+3254,Hand Management
+3255,Tile Placement
+3256,Card Drafting
+3257,Deck Building
+3258,Take That
+3259,Dice Rolling
+3260,Paper and Pencil
+3261,Auction
+3262,Bidding
+3263,Hand Management
+3264,Set Collection
+3265,Worker Placement
+3266,Set Collection
+3267,Worker Placement
+3268,Modular Board
+3269,Tile Placement
+3270,Card Drafting
+3271,Drafting
+3272,End Game Bonuses
+3273,Force Commitment
+3274,Hand Management
+3275,Area Majority/ Influence
+3276,Grid Movement
+3277,Hand Management
+3278,Modular Board
+3279,Set Collection
+3280,Area Control
+3281,Hand Management
+3282,Variable Player Powers
+3283,Deck Building
+3284,Card Drafting
+3285,Deck Building
+3286,Hand Management
+3287,Point to Point Movement
+3288,Pool Building
+3289,Tile Placement
+3290,Pool Building
+3291,Press Your Luck
+3292,Hand Management
+3293,Storytelling
+3294,Voting
+3295,Cooperative Play
+3296,Deduction
+3297,Dice Rolling
+3298,Grid Movement
+3299,Memory
+3300,Teams
+3301,Dice Rolling
+3302,Action Point Allowance System
+3303,Area Movement
+3304,Dice Rolling
+3305,Hand Management
+3306,Area Majority/ Influence
+3307,Tile Placement
+3308,Card Drafting
+3309,Hand Management
+3310,Network and Route Building
+3311,Partnerships
+3312,Set Collection
+3313,Area Control
+3314,Area Majority/ Influence
+3315,Card Drafting
+3316,Hand Management
+3317,Worker Placement
+3318,Area Control
+3319,Dice Rolling
+3320,Variable Player Powers
+3321,Modular Board
+3322,Race
+3323,Tile Placement
+3324,Hand Management
+3325,Modular Board
+3326,Player Elimination
+3327,Race
+3328,Area Movement
+3329,Grid Movement
+3330,Pick-up and Deliver
+3331,Take That
+3332,Variable Player Powers
+3333,Deck Building
+3334,Action Point Allowance System
+3335,Pick-up and Deliver
+3336,Set Collection
+3337,Tile Placement
+3338,Modular Board
+3339,Set Collection
+3340,Tile Placement
+3341,Cooperative Play
+3342,Variable Player Powers
+3343,Card Placement
+3344,Layering
+3345,Set Collection
+3346,Grid Movement
+3347,Pattern Movement
+3348,Tile Placement
+3349,Action Point Allowance System
+3350,Area Control
+3351,Take That
+3352,Variable Player Powers
+3353,Worker Placement
+3354,Area Control
+3355,Area Movement
+3356,Campaign
+3357,Dice Rolling
+3358,Variable Player Powers
+3359,Cooperative Play
+3360,Deduction
+3361,Hand Management
+3362,Pattern Building
+3363,Area Movement
+3364,Hand Management
+3365,Secret Unit Deployment
+3366,Variable Player Powers
+3367,Area Control
+3368,Area Movement
+3369,Dice Rolling
+3370,Solo / Solitaire Game
+3371,Variable Player Powers
+3372,Dice Rolling
+3373,Drafting
+3374,Pattern Building
+3375,Solo mode (multiplayer game)
+3376,Card Drafting
+3377,Deck Building
+3378,Player Elimination
+3379,
+3380,Take That
+3381,Cooperative Play
+3382,Card Drafting
+3383,Hand Management
+3384,Set Collection
+3385,Take That
+3386,Variable Player Powers
+3387,Deduction
+3388,Dice Rolling
+3389,Hidden Traitor
+3390,Partnerships
+3391,Role Playing
+3392,Variable Player Powers
+3393,Area Control
+3394,Auction
+3395,Card Drafting
+3396,Modular Board
+3397,Worker Placement
+3398,Area Control
+3399,Area Movement
+3400,Auction
+3401,Card Drafting
+3402,Hand Management
+3403,Memory
+3404,Simultaneous Play
+3405,Hand Management
+3406,Set Collection
+3407,Worker Placement
+3408,Card Drafting
+3409,Dice Rolling
+3410,Hand Management
+3411,Trading
+3412,Set Collection
+3413,Variable Player Powers
+3414,Action / Movement Programming
+3415,Card Drafting
+3416,Simultaneous Play
+3417,Cooperative Play
+3418,Deck Building
+3419,Hand Management
+3420,Player Elimination
+3421,Variable Player Powers
+3422,Dice Rolling
+3423,Grid Movement
+3424,Modular Board
+3425,Card Drafting
+3426,Press Your Luck
+3427,Set Collection
+3428,Dice Rolling
+3429,Hand Management
+3430,Press Your Luck
+3431,Variable Player Powers
+3432,Hand Management
+3433,Worker Placement
+3434,Dice Rolling
+3435,Press Your Luck
+3436,Set Collection
+3437,Take That
+3438,Card Drafting
+3439,Set Collection
+3440,Worker Placement
+3441,Area Majority/ Influence
+3442,Auction
+3443,Bidding
+3444,Resource Gathering
+3445,Deck Building
+3446,Hand Management
+3447,Point to Point Movement
+3448,Area Control
+3449,Bag Building
+3450,Grid Movement
+3451,Modular Board
+3452,Pool Building
+3453,Variable Player Powers
+3454,Auction
+3455,Card Drafting
+3456,Hand Management
+3457,Network and Route Building
+3458,Set Collection
+3459,Network and Route Building
+3460,Pick-up and Deliver
+3461,Worker Placement
+3462,Dice Rolling
+3463,Partnerships
+3464,Player Elimination
+3465,Social Deduction
+3466,Teams
+3467,Variable Player Powers
+3468,Card Drafting
+3469,Race
+3470,Variable Phase Order
+3471,Variable Player Powers
+3472,Area Movement
+3473,Variable Player Powers
+3474,Set Collection
+3475,Betting
+3476,Hand Management
+3477,Ladder Climbing
+3478,Melding and Splaying
+3479,Shedding
+3480,Trick-taking
+3481,Area Control
+3482,Variable Phase Order
+3483,Card Drafting
+3484,Cooperative Play
+3485,Dice Rolling
+3486,Press Your Luck
+3487,Solo / Solitaire Game
+3488,Variable Player Powers
+3489,Cooperative Play
+3490,Deck Building
+3491,Dice Rolling
+3492,Grid Movement
+3493,Hand Management
+3494,Modular Board
+3495,Role Playing
+3496,Variable Phase Order
+3497,Variable Player Powers
+3498,Area Majority/ Influence
+3499,Tile Placement
+3500,Dice Rolling
+3501,Open Drafting
+3502,Set Collection
+3503,Variable Player Powers
+3504,Worker Placement
+3505,Card Drafting
+3506,Hand Management
+3507,Pattern Building
+3508,Set Collection
+3509,Tile Placement
+3510,Campaign
+3511,Dice Rolling
+3512,Grid Movement
+3513,Hand Management
+3514,Modular Board
+3515,Scenario / Mission / Campaign Game
+3516,Variable Player Powers
+3517,Grid Movement
+3518,Card Drafting
+3519,Hand Management
+3520,Set Collection
+3521,Card Drafting
+3522,Deck Building
+3523,Hand Management
+3524,Card Drafting
+3525,Drafting
+3526,Hand Management
+3527,Tableau Building
+3528,Variable Player Powers
+3529,Card Drafting
+3530,Hand Management
+3531,Set Collection
+3532,Tile Placement
+3533,Variable Player Powers
+3534,Worker Placement
+3535,Card Drafting
+3536,Hand Management
+3537,Network and Route Building
+3538,Set Collection
+3539,Card Drafting
+3540,Hand Management
+3541,Take That
+3542,Cooperative Play
+3543,Betting
+3544,Player Elimination
+3545,Set Collection
+3546,Cooperative Play
+3547,Dice Rolling
+3548,Grid Movement
+3549,Modular Board
+3550,Role Playing
+3551,Variable Player Powers
+3552,Area Movement
+3553,Dice Rolling
+3554,Partnerships
+3555,Variable Phase Order
+3556,Variable Player Powers
+3557,Action Point Allowance System
+3558,Area Control
+3559,Grid Movement
+3560,Modular Board
+3561,Pick-up and Deliver
+3562,Set Collection
+3563,Tile Placement
+3564,Variable Player Powers
+3565,Area Majority/ Influence
+3566,Tile Placement
+3567,Action Point Allowance System
+3568,Area Movement
+3569,Pattern Building
+3570,Network and Route Building
+3571,Cooperative Play
+3572,Dexterity
+3573,Flicking
+3574,Variable Player Powers
+3575,Memory
+3576,Partnerships
+3577,Role Playing
+3578,Storytelling
+3579,Hand Management
+3580,Partnerships
+3581,Variable Player Powers
+3582,Area Control
+3583,Area Majority/ Influence
+3584,Dice Rolling
+3585,Set Collection
+3586,Variable Player Powers
+3587,Worker Placement
+3588,Action Point Allowance System
+3589,Area Movement
+3590,Card Drafting
+3591,Cooperative Play
+3592,Hand Management
+3593,Variable Player Powers
+3594,Action Point Allowance System
+3595,Cooperative Play
+3596,Grid Movement
+3597,Point to Point Movement
+3598,Press Your Luck
+3599,Tile Placement
+3600,Variable Player Powers
+3601,Pattern Recognition
+3602,Card Drafting
+3603,Deck Building
+3604,Hand Management
+3605,Dice Rolling
+3606,Commodity Speculation
+3607,Contracts
+3608,Rondel
+3609,Set Collection
+3610,Memory
+3611,Player Elimination
+3612,Press Your Luck
+3613,Hand Management
+3614,Network and Route Building
+3615,Set Collection
+3616,Card Drafting
+3617,Set Collection
+3618,Area Control
+3619,Area Majority/ Influence
+3620,Area Movement
+3621,Rondel
+3622,Stock Holding
+3623,Card Drafting
+3624,Dice Rolling
+3625,Random Production
+3626,Area Control
+3627,Area Majority/ Influence
+3628,Auction
+3629,Variable Player Powers
+3630,Auction
+3631,Hand Management
+3632,Tile Placement
+3633,Cooperative Play
+3634,Role Playing
+3635,Storytelling
+3636,Card Drafting
+3637,Deck Building
+3638,Hand Management
+3639,Betting
+3640,Bluffing
+3641,Card Drafting
+3642,"I Split, You Take"
+3643,Open Drafting
+3644,Set Collection
+3645,Card Drafting
+3646,Pattern Building
+3647,Press Your Luck
+3648,Card Drafting
+3649,Hand Management
+3650,Set Collection
+3651,Worker Placement
+3652,Card Drafting
+3653,Dice Rolling
+3654,Memory
+3655,Modular Board
+3656,Action Point Allowance System
+3657,Set Collection
+3658,Tile Placement
+3659,Worker Placement
+3660,Betting
+3661,Hand Management
+3662,Player Elimination
+3663,Take That
+3664,Variable Player Powers
+3665,Player Elimination
+3666,Simultaneous Play
+3667,Variable Player Powers
+3668,Dice Rolling
+3669,Role Playing
+3670,Roll / Spin and Move
+3671,Variable Player Powers
+3672,Dice Rolling
+3673,Engine Building
+3674,Pick-up and Deliver
+3675,Point to Point Movement
+3676,Variable Player Powers
+3677,Card Drafting
+3678,Hand Management
+3679,Network and Route Building
+3680,Set Collection
+3681,Hand Management
+3682,Set Collection
+3683,Action Drafting
+3684,Area Control
+3685,Area Majority/ Influence
+3686,Dice Rolling
+3687,Action / Movement Programming
+3688,Area Control
+3689,Network and Route Building
+3690,Simultaneous Play
+3691,Press Your Luck
+3692,Set Collection
+3693,Take That
+3694,Variable Player Powers
+3695,Pattern Recognition
+3696,Card Drafting
+3697,Pattern Building
+3698,Take That
+3699,Tile Placement
+3700,Variable Phase Order
+3701,Action Point Allowance System
+3702,Network and Route Building
+3703,Pick-up and Deliver
+3704,Action Point Allowance System
+3705,Area Majority/ Influence
+3706,Dice Rolling
+3707,Grid Movement
+3708,Hand Management
+3709,Modular Board
+3710,Trading
+3711,Variable Player Powers
+3712,Area Movement
+3713,Hand Management
+3714,Partnerships
+3715,Voting
+3716,Area Movement
+3717,Hand Management
+3718,Variable Player Powers
+3719,Area Majority/ Influence
+3720,Investment
+3721,Ownership
+3722,Rondel
+3723,Cooperative Play
+3724,Dice Rolling
+3725,Role Playing
+3726,Variable Player Powers
+3727,Worker Placement
+3728,Cooperative Play
+3729,Hand Management
+3730,Variable Player Powers
+3731,Card Drafting
+3732,Set Collection
+3733,Action Point Allowance System
+3734,Cooperative Play
+3735,Modular Board
+3736,Storytelling
+3737,Variable Player Powers
+3738,Worker Placement
+3739,Cooperative Play
+3740,Dice Rolling
+3741,Role Playing
+3742,Storytelling
+3743,Time Track
+3744,Variable Player Powers
+3745,Voting
+3746,Hand Management
+3747,Variable Player Powers
+3748,Cooperative Play
+3749,Dice Rolling
+3750,Roll / Spin and Move
+3751,Acting
+3752,Memory
+3753,Partnerships
+3754,Open Drafting
+3755,Set Collection
+3756,Worker Placement
+3757,Area Control
+3758,Dice Rolling
+3759,Modular Board
+3760,Variable Player Powers
+3761,Area Control
+3762,Area Majority/ Influence
+3763,Modular Board
+3764,Variable Player Powers
+3765,Worker Placement
+3766,Cooperative Play
+3767,Dice Rolling
+3768,Grid Movement
+3769,Modular Board
+3770,Role Playing
+3771,Variable Player Powers
+3772,Action Point Allowance System
+3773,Dice Rolling
+3774,Set Collection
+3775,Deck Building
+3776,Hand Management
+3777,Race
+3778,Dice Rolling
+3779,Take That
+3780,Variable Player Powers
+3781,
+3782,Hand Management
+3783,Hex and Counter
+3784,
+3785,Card Drafting
+3786,Deck Building
+3787,Hand Management
+3788,Auction
+3789,Market
+3790,Set Collection
+3791,Deck Building
+3792,Dice Rolling
+3793,Variable Player Powers
+3794,Card Drafting
+3795,Memory
+3796,Pattern Building
+3797,Set Collection
+3798,Variable Phase Order
+3799,Action Point Allowance System
+3800,Cooperative Play
+3801,Modular Board
+3802,Tile Placement
+3803,Variable Player Powers
+3804,Area Control
+3805,Area Majority/ Influence
+3806,Card Drafting
+3807,Hand Management
+3808,Variable Setup
+3809,Dice Rolling
+3810,Press Your Luck
+3811,Secret Unit Deployment
+3812,Set Collection
+3813,Time Track
+3814,Worker Placement
+3815,Card Drafting
+3816,Hand Management
+3817,Area Movement
+3818,Hand Management
+3819,Paper and Pencil
+3820,Set Collection
+3821,Dice Rolling
+3822,Set Collection
+3823,Tile Placement
+3824,Worker Placement
+3825,Betting
+3826,Hand Management
+3827,Card Drafting
+3828,Hand Management
+3829,Simulation
+3830,Pattern Recognition
+3831,Area Majority/ Influence
+3832,Area Movement
+3833,Auction: Dutch
+3834,Dice Rolling
+3835,Events
+3836,Variable Player Powers
+3837,Acting
+3838,Storytelling
+3839,Voting
+3840,Cooperative Play
+3841,Card Drafting
+3842,Hand Management
+3843,Set Collection
+3844,Worker Placement
+3845,Auction
+3846,Network and Route Building
+3847,Tile Placement
+3848,Modular Board
+3849,Tile Placement
+3850,Grid Movement
+3851,Line Drawing
+3852,Modular Board
+3853,Network and Route Building
+3854,Pick-up and Deliver
+3855,Dexterity
+3856,Stacking and Balancing
+3857,Cooperative Play
+3858,Hidden Roles
+3859,Teams
+3860,Voting
+3861,Area Control
+3862,Area Movement
+3863,Card Drafting
+3864,Modular Board
+3865,Set Collection
+3866,Variable Player Powers
+3867,Area Control
+3868,Area Majority/ Influence
+3869,Dice Rolling
+3870,Set Collection
+3871,Drafting
+3872,Hand Management
+3873,Set Collection
+3874,Variable Phase Order
+3875,Card Drafting
+3876,Grid Movement
+3877,Set Collection
+3878,Acting
+3879,Line Drawing
+3880,Partnerships
+3881,Roll / Spin and Move
+3882,Hand Management
+3883,Set Collection
+3884,Cooperative Play
+3885,Dice Rolling
+3886,Modular Board
+3887,Storytelling
+3888,Variable Player Powers
+3889,Worker Placement
+3890,Action Point Allowance System
+3891,Area Control
+3892,Card Drafting
+3893,Dice Rolling
+3894,Set Collection
+3895,Cooperative Play
+3896,Partnerships
+3897,Press Your Luck
+3898,Variable Player Powers
+3899,Partnerships
+3900,Player Elimination
+3901,Role Playing
+3902,Variable Player Powers
+3903,Area Movement
+3904,Card Drafting
+3905,Hand Management
+3906,Modular Board
+3907,Open Drafting
+3908,Tile Placement
+3909,Worker Placement
+3910,Dice Rolling
+3911,Grid Movement
+3912,Hidden Traitor
+3913,Modular Board
+3914,Player Elimination
+3915,Storytelling
+3916,Traitor
+3917,Worker Placement
+3918,Action Queue
+3919,Critical Hits and Failures
+3920,Dice Rolling
+3921,Movement Template
+3922,Simulation
+3923,Variable Player Powers
+3924,Area Control
+3925,Card Drafting
+3926,Card Drafting
+3927,Deck Building
+3928,Hand Management
+3929,Worker Placement
+3930,Pattern Building
+3931,Area Control
+3932,Dice Rolling
+3933,Set Collection
+3934,Trading
+3935,Variable Player Powers
+3936,Hand Management
+3937,Player Elimination
+3938,Card Drafting
+3939,Hand Management
+3940,Partnerships
+3941,Point to Point Movement
+3942,Action Queue
+3943,Area Majority/ Influence
+3944,Dice Rolling
+3945,Press Your Luck
+3946,Set Collection
+3947,Connections
+3948,Network and Route Building
+3949,Voting
+3950,Area Control
+3951,Area Majority/ Influence
+3952,Dice Rolling
+3953,Worker Placement
+3954,Area Majority/ Influence
+3955,Campaign
+3956,Hand Management
+3957,Scenario / Mission / Campaign Game
+3958,Tug of War
+3959,Cooperative Play
+3960,Deck Building
+3961,Action / Movement Programming
+3962,Grid Movement
+3963,Modular Board
+3964,Area Majority/ Influence
+3965,Auction
+3966,Bidding
+3967,Dice Rolling
+3968,Hand Management
+3969,Set Collection
+3970,Tile Placement
+3971,Auction
+3972,Bidding
+3973,Hexagon Grid
+3974,Network and Route Building
+3975,Stock Holding
+3976,Tile Placement
+3977,Dice Rolling
+3978,Set Collection
+3979,Simultaneous Play
+3980,Cooperative Play
+3981,Hand Management
+3982,Area Control
+3983,Card Drafting
+3984,Hand Management
+3985,Tile Placement
+3986,Area Control
+3987,Grid Movement
+3988,Modular Board
+3989,Network and Route Building
+3990,Pick-up and Deliver
+3991,Tile Placement
+3992,Action Point Allowance System
+3993,Auction
+3994,Card Drafting
+3995,Cooperative Play
+3996,Hand Management
+3997,Storytelling
+3998,Cooperative Play
+3999,Deck Building
+4000,Card Drafting
+4001,Modular Board
+4002,Set Collection
+4003,Tile Placement
+4004,Worker Placement
+4005,Pattern Building
+4006,Dice Rolling
+4007,Press Your Luck
+4008,Role Playing
+4009,Campaign
+4010,Cooperative Play
+4011,Deck Building
+4012,Dice Building
+4013,Dice Rolling
+4014,Role Playing
+4015,Action Selection
+4016,Character Progression
+4017,Dice Rolling
+4018,Modular Board
+4019,Pick-up and Deliver
+4020,Tile Placement
+4021,Trading
+4022,Variable Player Powers
+4023,Set Collection
+4024,Hand Management
+4025,Trick-taking
+4026,Card Drafting
+4027,Set Collection
+4028,Variable Player Powers
+4029,Bluffing
+4030,Deduction
+4031,Dice Rolling
+4032,Partnerships
+4033,Player Elimination
+4034,Press Your Luck
+4035,Variable Player Powers
+4036,Hand Management
+4037,Partnerships
+4038,Take That
+4039,Cooperative Play
+4040,Storytelling
+4041,Auction
+4042,Deck Building
+4043,Hand Management
+4044,Network and Route Building
+4045,Tile Placement
+4046,Variable Player Powers
+4047,Worker Placement
+4048,Action Point Allowance System
+4049,Area Movement
+4050,Cooperative Play
+4051,Dice Rolling
+4052,Modular Board
+4053,Role Playing
+4054,Variable Player Powers
+4055,Cooperative Play
+4056,Deck Building
+4057,Chit-Pull System
+4058,Cooperative Play
+4059,Hand Management
+4060,Trading
+4061,Card Drafting
+4062,Deck Building
+4063,Point to Point Movement
+4064,Press Your Luck
+4065,Card Drafting
+4066,Dice Rolling
+4067,Player Elimination
+4068,Press Your Luck
+4069,Take That
+4070,Variable Player Powers
+4071,Dice Rolling
+4072,Variable Player Powers
+4073,Cooperative Play
+4074,Deck Building
+4075,Dice Rolling
+4076,Commodity Speculation
+4077,Investment
+4078,Simulation
+4079,Stock Holding
+4080,Worker Placement
+4081,Hand Management
+4082,Player Elimination
+4083,Relative Movement
+4084,Simultaneous Play
+4085,Stock Holding
+4086,Worker Placement
+4087,Area Control
+4088,Area Majority/ Influence
+4089,Mancala
+4090,Modular Board
+4091,Network and Route Building
+4092,Set Collection
+4093,Area Movement
+4094,Cooperative Play
+4095,Dice Rolling
+4096,Hand Management
+4097,Time Track
+4098,Action / Movement Programming
+4099,Action Queue
+4100,Hand Management
+4101,Modular Board
+4102,Pick-up and Deliver
+4103,Worker Placement
+4104,Card Drafting
+4105,Hand Management
+4106,Set Collection
+4107,Hand Management
+4108,Point to Point Movement
+4109,Simultaneous Play
+4110,Variable Player Powers
+4111,Area Control
+4112,Auction
+4113,Hand Management
+4114,Partnerships
+4115,Point to Point Movement
+4116,Variable Player Powers
+4117,Action / Movement Programming
+4118,Hand Management
+4119,Area Majority/ Influence
+4120,Hand Management
+4121,Teams
+4122,Cooperative Play
+4123,Dice Rolling
+4124,Grid Movement
+4125,Modular Board
+4126,Role Playing
+4127,Variable Player Powers
+4128,Action / Movement Programming
+4129,Hand Management
+4130,Set Collection
+4131,Worker Placement
+4132,Area Enclosure
+4133,Tile Placement
+4134,Dice Rolling
+4135,Grid Movement
+4136,Modular Board
+4137,Partnerships
+4138,Role Playing
+4139,Roll / Spin and Move
+4140,Variable Player Powers
+4141,Dice Rolling
+4142,Grid Movement
+4143,Pick-up and Deliver
+4144,Set Collection
+4145,Trading
+4146,Action Point Allowance System
+4147,Dice Rolling
+4148,Drafting
+4149,Engine Building
+4150,Communication Limits
+4151,Cooperative Play
+4152,Hand Management
+4153,Pattern Building
+4154,Action Point Allowance System
+4155,Cooperative Play
+4156,Dice Rolling
+4157,Grid Movement
+4158,Modular Board
+4159,Pick-up and Deliver
+4160,Variable Player Powers
+4161,Action / Movement Programming
+4162,Cooperative Play
+4163,Dice Rolling
+4164,Modular Board
+4165,Secret Unit Deployment
+4166,Tile Placement
+4167,Variable Player Powers
+4168,Area Majority/ Influence
+4169,Hand Management
+4170,Set Collection
+4171,Dice Rolling
+4172,Partnerships
+4173,Point to Point Movement
+4174,Secret Unit Deployment
+4175,Variable Player Powers
+4176,Card Drafting
+4177,Dice Rolling
+4178,Hand Management
+4179,Hand Management
+4180,Point to Point Movement
+4181,Solo / Solitaire Game
+4182,Area Enclosure
+4183,Hand Management
+4184,Tile Placement
+4185,Auction
+4186,Bidding
+4187,Hexagon Grid
+4188,Network and Route Building
+4189,Stock Holding
+4190,Tile Placement
+4191,Deck Building
+4192,Dice Rolling
+4193,Cooperative Play
+4194,Storytelling
+4195,Card Drafting
+4196,Simultaneous Play
+4197,Tile Placement
+4198,Variable Phase Order
+4199,Area Movement
+4200,Set Collection
+4201,Variable Player Powers
+4202,Worker Placement
+4203,Press Your Luck
+4204,Take That
+4205,Grid Movement
+4206,Card Drafting
+4207,Hand Management
+4208,Point to Point Movement
+4209,Network and Route Building
+4210,Area Control
+4211,Area Movement
+4212,Hand Management
+4213,Set Collection
+4214,Trading
+4215,Area Control
+4216,Card Drafting
+4217,Point to Point Movement
+4218,Dice Rolling
+4219,Area Control
+4220,Card Drafting
+4221,Hand Management
+4222,Variable Player Powers
+4223,Action Point Allowance System
+4224,Card Drafting
+4225,Dice Rolling
+4226,Hand Management
+4227,Set Collection
+4228,Dice Rolling
+4229,Finale Ending
+4230,Hidden Objective
+4231,Multiple Maps
+4232,Scenario / Mission / Campaign Game
+4233,Turn Order: Random
+4234,Variable Setup
+4235,Line Drawing
+4236,Network and Route Building
