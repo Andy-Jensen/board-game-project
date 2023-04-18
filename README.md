@@ -46,7 +46,7 @@ I have a few thoughts about what I may find before I explore the data in earnest
  
 * Explore data to develop an understanding of what features affect a board games rating.
    * Initial questions:
-       * Do schools with more economically disadvantaged students have a lower average percent passing rate for STAAR exams?
+       * Which mechanics are most utalized by all board games?
        * Do schools with teachers that have more years of experience have a better average STAAR score passing rates?
        * Of schools with a large proportion of economically disadvantaged students, do the schools with higher average STAAR scores have higher expenses per student?
        * Do schools with above average economically disadvantaged students have significantly higher total expendature per student?
