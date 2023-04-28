@@ -20,10 +20,9 @@ Board games are loved by everyone, young and old. They are something that brings
 
 
 ## Executive Summary:
-**Insights**
-1. one
-2. two
-3. three
+1. There were no features found that indicate if a board game would rank high (top 10%) other than number of distributors.
+2. There were some mechanics in the top 10% of board games that are not in the top mechanics of other board games.
+3. The Descriptions of the games indicate...
 
 
 ## Initial Hypothesis:
@@ -49,20 +48,21 @@ I have a few thoughts about what I may find before I explore the data in earnest
        * Which mechanics are most utalized by all board games?
        * Do higher rated games have any features that are significantly different than games that are not higher rated?
            * Statistical tests were run for each feature
+       * Explore the bigrams and trigrams of the top 10% of board games description and the rest of the board games.
        
 * Prep the data for modeling:
     * Split data into X and y train
     * Scale all numeric data excluding target variables:
         * MinMaxScalar() was used to scale data
       
-* Develop a model to predict STAAR scores for `english_1`, `english_2`, `algebra`, `biology`, and `history`
-   * Regression models were used to predict STAAR scores
-       * Linear Regression
-       * Lasso Lars
-       * Tweedie Regressor
-       * Polynomial Regression
+* Develop a model to predict if a board game will rank in the top 10% or not
+   * Classification models will be used to predict rank
+       * Decision Tree
+       * Random Forest
+       * KNN
+       * 
    * Evaluate models on train and validate data
-   * Select the best model based on the lowest RMSE and difference between in sample and out of sample data RMSE
+   * Select the best model based on accuracy
    * Test the best model on test data
  
 * Draw conclusions
