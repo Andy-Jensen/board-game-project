@@ -15,14 +15,14 @@ Board games are loved by everyone, young and old. They are something that brings
 ## Project Goals:
 * Identify drivers of highly rated board games
 * Build a model to accurately predict if a board game will have achieve a high rating.
-* Conduct an NLP analysis for game desctiptions
+* Conduct an NLP analysis for game descriptions and mechanics
 * Provide stakeholders with a recipe to create a highly rated board game.
 
 
 ## Executive Summary:
 1. There were no features found that indicate if a board game would rank high (top 10%) other than number of distributors.
 2. There were some mechanics in the top 10% of board games that are not in the top mechanics of other board games.
-3. The Descriptions of the games indicate...
+3. The Descriptions of the games indicate that there may be a certain set of elements in a board game that are more popular.
 
 
 ## Initial Hypothesis:
@@ -72,24 +72,24 @@ I have a few thoughts about what I may find before I explore the data in earnest
 
 | Feature | Definition |
 |:--------|:-----------|
-|id| The id number of the school from TEA|
-|name| English I, percent of students at approaches grade level or above for English I|
-|price| English II, percent of students at approaches grade level or above for English II|
-|msrp| Algebra, percent of students at approaches grade level or above for Algebra|
-|year_published| Biology, percent of students at approaches grade level or above for Biology|
-|min_players| U.S. History, percent of students at approaches grade level or above for U.S. History|
-|max_players| EB/EL Current and Monitored, percent of students in the dual-language program that enables emergent bilingual (EB) students/English learners (ELs) to become proficient in listening, speaking, reading, and writing in the English language through the development of literacy and academic skills in the primary language and English.|
-|min_playtime| Integer, number of teachers with 0-5 years of experience|
-|max_playtime| Integer, number of teachers with 6-10 numbers of experience|
-|min_age| Integer, number of teachers with 11 or more years of experience|
-|num_user_ratings| The amount of funds (in dollars) spent on extracurriculuars per student|
-|average_user_rating| The average total amount of funds (in dollars) spent per student|
-|num_user_complexity_votes| students that are from homes that are below the poverty line
-|average_learning_complexity| Average Actual Salary, Average amount teachers are being paid in dollars|
-|average_strategy_complexity| Percent of teachers with a masters or doctorate degree|
-|rank| Count of the number of students per one teacher|
-|type| Count of the number of students per one teacher|
-|num_distributors| Count of the number of students per one teacher|
+|id| The id number of the game|
+|name| The name of the game|
+|price| The lowest current available price for the game|
+|msrp| Manufacturer suggested retail price|
+|year_published| The year the game was made|
+|min_players| Minimum number of players required to play the game|
+|max_players| The maximum number of players that can play the game|
+|min_playtime| The manufacturers estimated minimum time to play the game|
+|max_playtime| The manufacturers estimated maximum time to play the game|
+|min_age| The recommended minimum age required to play the game|
+|num_user_ratings| The number of user ratings the game has recieved on boardgameatlas|
+|average_user_rating| The average rating (1-5) the game has recieved from the users|
+|num_user_complexity_votes| The average rating (1-5) of the games complexity as rated by the users|
+|average_learning_complexity| The average rating (1-5) of the games learning complexity as rated by the users|
+|average_strategy_complexity| PThe average rating (1-5) of the games strategy complexity as rated by the users|
+|rank| The rank of the game|
+|type| Either 'game', 'expansion', or 'accessory' indicating the type of product|
+|num_distributors| The number of distributors of the game|
 
 
 
