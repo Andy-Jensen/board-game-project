@@ -52,15 +52,13 @@ I have a few thoughts about what I may find before I explore the data in earnest
        
 * Prep the data for modeling:
     * Split data into X and y train
-    * Scale all numeric data excluding target variables:
-        * MinMaxScalar() was used to scale data
-      
+
 * Develop a model to predict if a board game will rank in the top 10% or not
-   * Classification models will be used to predict rank
+   * Classification models will be used to predict rank:
        * Decision Tree
        * Random Forest
        * KNN
-       * 
+       * Logistic Regression
    * Evaluate models on train and validate data
    * Select the best model based on accuracy
    * Test the best model on test data
@@ -90,12 +88,3 @@ I have a few thoughts about what I may find before I explore the data in earnest
 |rank| The rank of the game|
 |type| Either 'game', 'expansion', or 'accessory' indicating the type of product|
 |num_distributors| The number of distributors of the game|
-
-
-
-## Steps to Reproduce
-1. Clone this repo
-2. Use the function from acquire.py to acquire the data from the Board Game Atlas API 
-3. Use the functions from prepare.py to prepare the data for exploration
-4. Run the explore and modeling notebook
-5. Run final report notebook
