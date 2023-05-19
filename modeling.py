@@ -11,6 +11,7 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score
+import sklearn.preprocessing
 
 import warnings
 warnings.filterwarnings('ignore')
@@ -20,7 +21,7 @@ def modeling_df(df):
     This function preps the data for modeling
     '''
     df.drop(columns=['id', 'name', 'num_user_ratings', 'average_user_rating', 'num_user_complexity_votes', 
-                 'average_learning_complexity', 'average_strategy_complexity', 'year_published'], inplace=True)
+                 'average_learning_complexity', 'average_strategy_complexity', 'year_published', 'num_distributors'], inplace=True)
     train, val, test=ex.tts(df, stratify='rank')
     return train, val, test
 
@@ -68,15 +69,25 @@ def models(train, val):
     results.append(output)
     
     knn= KNeighborsClassifier(n_neighbors=5, weights='uniform')
-    knn.fit(x_train,y_train)
-    in_sample= knn.score(x_train, y_train)
-    out_of_sample= knn.score(x_val, y_val)
+    scaler = sklearn.preprocessing.MinMaxScaler()
+    scaler.fit(x_train)
+    x_train_scaled = scaler.transform(x_train)
+    x_val_scaled = scaler.transform(x_val)
+    knn.fit(x_train_scaled,y_train)
+    in_sample= knn.score(x_train_scaled, y_train)
+    out_of_sample= knn.score(x_val_scaled, y_val)
     output={
         'model': 'KNeighborsClassifier',
         'train_accuracy': in_sample,
         'validate_accuracy': out_of_sample
     }
     results.append(output)
+    
+    x_train=train.drop(columns=['rank'])
+    y_train=train['rank']
+
+    x_val=val.drop(columns=['rank'])
+    y_val=val['rank']
     
     dtc=DecisionTreeClassifier(max_depth=2, min_samples_leaf=4, random_state=8675309)
     dtc.fit(x_train, y_train)

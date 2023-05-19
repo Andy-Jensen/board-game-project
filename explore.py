@@ -147,6 +147,8 @@ def compare_descriptions():
     tokenizer = nltk.tokenize.ToktokTokenizer()
     ps = nltk.porter.PorterStemmer()
     stopword_list = stopwords.words('english')
+    new_stopwords = ['game', 'card', 'player', 'board', 'year', 'jahr']
+    stopword_list.extend(new_stopwords)
     high_des=[]
     low_des=[]
     for d in range(0, 978):
@@ -205,6 +207,8 @@ def low_bigrams():
     tokenizer = nltk.tokenize.ToktokTokenizer()
     ps = nltk.porter.PorterStemmer()
     stopword_list = stopwords.words('english')
+    new_stopwords = ['game', 'card', 'player', 'board', 'year', 'jahr']
+    stopword_list.extend(new_stopwords)
     high_des=[]
     low_des=[]
     for d in range(0, 978):
@@ -267,6 +271,8 @@ def high_bigrams():
     tokenizer = nltk.tokenize.ToktokTokenizer()
     ps = nltk.porter.PorterStemmer()
     stopword_list = stopwords.words('english')
+    new_stopwords = ['game', 'card', 'player', 'board', 'year', 'jahr']
+    stopword_list.extend(new_stopwords)
     high_des=[]
     low_des=[]
     for d in range(0, 978):
@@ -328,6 +334,8 @@ def high_trigrams():
     tokenizer = nltk.tokenize.ToktokTokenizer()
     ps = nltk.porter.PorterStemmer()
     stopword_list = stopwords.words('english')
+    new_stopwords = ['game', 'card', 'player', 'board', 'year', 'jahr']
+    stopword_list.extend(new_stopwords)
     high_des=[]
     low_des=[]
     for d in range(0, 978):
@@ -389,6 +397,8 @@ def low_trigrams():
     tokenizer = nltk.tokenize.ToktokTokenizer()
     ps = nltk.porter.PorterStemmer()
     stopword_list = stopwords.words('english')
+    new_stopwords = ['game', 'card', 'player', 'board', 'year', 'jahr']
+    stopword_list.extend(new_stopwords)
     high_des=[]
     low_des=[]
     for d in range(0, 978):
